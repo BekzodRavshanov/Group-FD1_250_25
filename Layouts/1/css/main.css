@@ -170,7 +170,7 @@ a:hover {
 
 .collections ul {
      width: 260px;
-    height: 340px;
+    height: 453px;
     background-color: #F7F8FA;
     /* position: absolute;
     display: none; */
@@ -245,7 +245,6 @@ a:hover {
 
 .image{
     background-color: #F1FAFFE0;
-    border: 1px solid black;
     width: 899px;
     height: 439px;
     float: right;
@@ -255,12 +254,13 @@ a:hover {
     margin-left: 11px;
 }
 
+/* ---------------------------block1------------------ */
+
 .block1{
     padding: 73px 0 0 47px;
-    margin: 0 0 0 0;
 }
 
-.block1 :first-child{
+.p1{
     color: #7AC751;
     font-size: 22px;
     letter-spacing: 5%;
@@ -278,8 +278,83 @@ a:hover {
     text-transform:capitalize;
 }
 
-h1 img{
-    width: 100px;
-    float: right;
-    margin: -60px ;
+h1 span{
+    border-bottom: 2px solid #7AC751 ;
+}
+
+.percent{
+    width: 324px;
+    height: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #515151B5;
+    font-size: 27px;
+    line-height: 26px;
+}
+
+.block1 button{
+    width: 129px;
+    height:40px ;
+    border-radius: 5px;
+    background-color:#7AC751 ;
+    border: none;
+    margin-top: 35px;
+}
+
+.block1 button a{
+    color: white;
+    text-decoration: none;
+}
+
+.block1 button:hover{
+    background-color: #5ea935;
+    color: white;
+    scale: 0.9;
+    transition: 0.2s all ease-in;
+}
+
+/* -------------------------------block2------------------ */
+
+.block2 img{
+    background-color: #F1FAFFE0;
+    padding-top: 36px;
+    padding-right: 42px;
+}
+
+/* --------------------------------block3-------------------------- */
+
+.block3{
+   margin: 0 auto;
+   margin-top: 45px;
+}
+
+.box p{
+    font-size: 7px;
+}
+
+.box{
+    width: 98px;
+    height: 92px;
+    border: 2px solid white;
+    border-radius: 8px;
+    background-color: #fcfeffe0;
+    margin-bottom: 25px;
+    text-align: center; 
+}
+
+
+.price{
+    color: #7AC751;
+    line-height: 26px;
+    margin-top: -5px;
+    font-weight: bolder;
+}
+
+.name{
+    padding-bottom: 2px;
+    margin-top: -5px;
+}
+
+.box:hover{
+    scale: 1.1;
+    transition: 0.3s all ease-in;
 }
