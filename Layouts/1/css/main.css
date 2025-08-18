@@ -4,7 +4,11 @@
     box-sizing: border-box;
     select option{
         color: black;
+        font-family: sans-serif;
     }
+
+/* ----------------HEADER--------------------------- */
+
 }
 .header{
     height: 50px;
@@ -117,4 +121,165 @@ a:hover {
     background-color: #7AC751;
     border-radius: 25%;
     cursor: pointer;
+}
+
+/* ---------------------------------NAVBAR----------------------------- */
+
+.bg{
+    background-color: #F7F8FA;
+}
+
+.navbar{
+    display: flex;
+    /* background-color: #F7F8FA; */
+     margin-top: 25px;
+     height: 67px;
+}
+
+.collections{
+    padding:20px 35px 25px 0; 
+    background-color: #7AC751;
+    color: white;
+    width: 260px;
+    height: 67px;
+    position: relative;
+   
+}
+
+/* .collections img{
+    width: 24px;
+    height: 24px;
+} */
+
+.collections button{
+    padding-left: 33px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 16px;
+    /* width: 146px; */
+    height: 19px;
+    text-transform: uppercase;
+    margin-bottom: 28px;
+}
+
+.collections button:hover{
+    cursor: pointer;
+    scale: 1.1;
+}
+
+.collections ul {
+     width: 260px;
+    height: 340px;
+    background-color: #F7F8FA;
+    /* position: absolute;
+    display: none; */
+}
+
+.collections li {
+    list-style: none;
+    width: 260px;
+    height: 31px;
+    font-size: 14px;
+    letter-spacing: 2%;
+    padding: 10px 0 14px 29px;
+    border-bottom: 1px solid #E3E3E3;
+}
+
+.collections li  a{
+    color: black;
+    float: left;
+    text-transform: capitalize;
+    text-decoration-line: none;
+}
+
+.collections li:hover{
+    background-color: gray;
+    scale: 1.1;
+    a {
+        color: white;
+    }
+}
+
+
+
+/* dropdown */
+
+/*--------------------------------- NAVLIST----------------------- */
+
+.navlist{
+    margin-left: 82px;
+     padding:25px 0px 25px 0px;
+
+}
+
+.navlist ul{
+    width: 506px;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.navlist li{
+    list-style: none;
+    /* display: inline; */
+}
+
+.navlist a{
+    color: #555555;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 8px 10px;
+}
+
+.navlist a:hover{
+    background-color:#7AC751;
+    border-radius: 2px;
+    scale: 1.1;
+    color: white;
+}
+
+/* -----------------------------MAIN IMAGE------------------------------- */
+
+.image{
+    background-color: #F1FAFFE0;
+    border: 1px solid black;
+    width: 899px;
+    height: 439px;
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    margin-left: 11px;
+}
+
+.block1{
+    padding: 73px 0 0 47px;
+    margin: 0 0 0 0;
+}
+
+.block1 :first-child{
+    color: #7AC751;
+    font-size: 22px;
+    letter-spacing: 5%;
+    line-height: 26px;
+    height: 25px;
+    width: 279px;
+    text-transform: uppercase;
+}
+
+.block1 h1{
+    width: 318px;
+    height: 96px;
+    font-size: 40px;
+    line-height: 100%;
+    text-transform:capitalize;
+}
+
+h1 img{
+    width: 100px;
+    float: right;
+    margin: -60px ;
 }
