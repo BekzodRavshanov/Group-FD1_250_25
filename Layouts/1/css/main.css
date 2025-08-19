@@ -342,7 +342,7 @@ h1 span{
 }
 
 
-.price{
+.pricee{
     color: #7AC751;
     line-height: 26px;
     margin-top: -5px;
@@ -514,6 +514,7 @@ body {
 
 .span {
     color: white;
+    
 }
 
 .discount {
@@ -539,9 +540,6 @@ body {
     scale: 0.9;
     transition: 0.3s all ease-in;
 }
-
-/* <!-- ★★★★ -->
- <!-- ☆ --> */
 
 /* ------------------------------------------------------------------ */
 .headd{
@@ -589,9 +587,7 @@ body {
     flex-wrap: wrap;
 }
 
-.pricee{
-    display: flex;
-}
+
 
 .chair {
     padding: 1rem;
