@@ -551,6 +551,7 @@ body {
     height: 45px;
     margin-left: 32rem;
     color: #555555;
+    margin-bottom: 45px;
 }
 
 .choicebar ul{
@@ -559,6 +560,7 @@ body {
     align-items: center;
     margin-left: 6rem;
     list-style-type: none;
+    margin-bottom: 73px;
    
    
 }
@@ -580,6 +582,7 @@ body {
 
 
 .chairs {
+   /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -590,11 +593,80 @@ body {
 
 
 .chair {
-    padding: 1rem;
-    width: 32%;
-    height: 360px;
+   /* border: 1px solid black; */
+   width: 270px;
+   height: 387px;
+   margin-bottom: 45px;
+}
+
+.chair img{
     box-sizing: border-box;
-    background-color: white;
-    margin-bottom: 1rem;
-    position: relative;
+    width:100%;
+    height: 287.82px;    
+}
+
+.chtext{
+     /* border: 1px solid black; */
+     margin-top: 15px;
+     margin-bottom: 6px;
+}
+
+.chtext p:first-child{
+      font-family: "Mulish", sans-serif;
+      color: #757575B5;
+      font-size: 14px;
+      font-weight: 400;
+      text-transform: uppercase;
+      margin-bottom: 9px;
+}
+
+.chtext p:last-child{
+    color: #555555;
+    font-family: "rubik", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    span{
+        text-transform: uppercase;
+
+    }
+}
+
+.prise{
+    /* border: 1px solid black; */
+    float: left;
+    font-family: "mulish",sans-serif;
+}
+
+.prise p{
+    color: #7AC751;
+    font-size: 18px;
+    font-weight: 700;
+    del{
+        color: #CCCCCC;
+        margin-left: 9px;
+    }
+}
+
+.rating{
+    /* border: 1px solid rgb(3, 243, 191); */
+}
+
+.rate{
+    float: right;
+}
+
+.rate li{
+    float: left;
+    list-style-type: none;
+}
+
+.rate li a img{
+    width: 10.53px;
+    height: 9.58px;
+}
+
+.chair:hover{
+    scale: 1.1;
+    transition: 0.1s all ease-in;
+    
 }
