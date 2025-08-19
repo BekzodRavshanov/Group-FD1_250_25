@@ -404,14 +404,14 @@ h1 span{
 
 .card:hover {
     cursor: pointer;
-    box-shadow: 5px 5px 5px 5px rgb(233, 240, 255, 0.8);
+    box-shadow: 5px 5px 5px 5px rgb(233, 240, 255, 1);
     background-color: #E3E3E3;
 
     h3, p, img {
         color: white;
     }
 
-    scale: 1;
+    scale: 1.1;
     transition: 0.2s all ease-in;
 }
 
