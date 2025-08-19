@@ -125,7 +125,7 @@ a:hover {
 
 /* ---------------------------------NAVBAR----------------------------- */
 
-.bg{
+.con2{
     background-color: #F7F8FA;
 }
 
@@ -441,6 +441,105 @@ h1 span{
     transition: 0.2s all ease-in;
     cursor: pointer;
 }
-.bgg{
+.con4{
     padding-top: 500px;
 }
+
+/* ----------------------------------------------------------------- */
+/* h2 {
+    text-align: center;
+    font-family: "Calibri Light";
+    letter-spacing: 5px;
+    word-spacing: 5px;
+}
+
+.word {
+    text-align: center;
+    font-size: 16px;
+    color: grey;
+}
+
+.green{
+    height: 74%;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.boxx {
+    padding: 1rem;
+    width: 32%;
+    height: 360px;
+    box-sizing: border-box;
+    background-color: white;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.boxx img {
+    width: 100%;
+}
+
+.boxx p {
+    color: grey;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.boxx h4 {
+    text-transform: uppercase;
+    color: darkslategray;
+    word-spacing: 2px;
+    letter-spacing:1px;
+}
+
+.boxx h4 p {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: ghostwhite;
+}
+
+.new {
+    background-color: red;
+
+}
+
+.span {
+    color: white;
+}
+
+.discount {
+    background-color: lightseagreen;
+
+}
+
+.price {
+    display: inline-block;
+    border-radius: 2px;
+    padding: 3px 6px;
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+}
+
+
+.con5{
+    margin-top: 65px;
+}
+
+.boxx :hover{
+    scale: 0.9;
+    transition: 0.3s all ease-in;
+}
+
+ */
+
+/* ------------------------------------------------------------------ */
