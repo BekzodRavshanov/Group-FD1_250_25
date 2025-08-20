@@ -1,75 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    select option{
+
+    select option {
         color: black;
         font-family: sans-serif;
     }
 
-/* ----------------HEADER--------------------------- */
+    /* ----------------HEADER--------------------------- */
 
 }
-.header{
+
+.header {
     height: 50px;
     background-color: #7AC751;
     padding-top: 16px;
 }
-.header h4{
+
+.header h4 {
     color: #fff;
     font-weight: 300;
     float: left;
 }
-.container{
+
+.container {
     width: 1172px;
-    margin: 0 auto;    
+    margin: 0 auto;
 }
-.clear{
+
+.clear {
     clear: both;
 }
 
-.signup{
+.signup {
     float: right;
     color: #fff;
 }
-.spann{
+
+.spann {
     margin-left: 15px;
     margin-right: 16px;
 }
+
 .signup select {
     background: transparent;
     border: none;
     font-size: 16px;
-    color: white;  
+    color: white;
 }
+
 a {
     color: white;
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: underline;
 }
-.logo{
+
+.logo {
     width: 147px;
     height: 38.96px;
     display: flex;
 }
-.logo img{
-    width:31.79px;
+
+.logo img {
+    width: 31.79px;
     height: 38.96px;
 }
-.logo h3{
+
+.logo h3 {
     width: 110px;
     font-size: 24px;
     margin-left: 5px;
-    margin-top: 5px;  
+    margin-top: 5px;
 }
-.searchbar{
+
+.searchbar {
     display: flex;
     margin-top: 22px;
     justify-content: space-between;
 }
-.search{
+
+.search {
     border-radius: 8px;
     display: flex;
     margin-right: 21px;
@@ -78,45 +92,51 @@ a:hover {
     justify-content: space-evenly;
     border: 2px solid #7AC751;
 }
-.search input{
+
+.search input {
     width: 403px;
-    border: none; 
+    border: none;
     border-top-left-radius: 8px;
-    border-bottom-left-radius: 8px;   
+    border-bottom-left-radius: 8px;
 }
-.search select{
+
+.search select {
     border: none;
     width: 123px;
 }
-.search button{
+
+.search button {
     width: 55px;
     height: 43px;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 6px;
     background-color: #7AC751;
     border: none;
-    
+
 }
-.search button :hover{
+
+.search button :hover {
     cursor: pointer;
     scale: 1.3;
     transition: 0.2s all ease-in;
 }
-.line1{
-   border: 1.5px solid #E3E3E3C7
+
+.line1 {
+    border: 1.5px solid #E3E3E3C7
 }
 
-.icons img{
+.icons img {
     padding: 10px;
 }
-.icons button{
+
+.icons button {
     margin-left: 21px;
     height: 24px;
     border: none;
     background: transparent;
 }
 
-.icons button a :hover{
+.icons button a :hover {
     transition: 0.3s all ease-in;
     background-color: #7AC751;
     border-radius: 25%;
@@ -125,25 +145,25 @@ a:hover {
 
 /* ---------------------------------NAVBAR----------------------------- */
 
-.con2{
+.con2 {
     background-color: #F7F8FA;
 }
 
-.navbar{
+.navbar {
     display: flex;
     /* background-color: #F7F8FA; */
-     margin-top: 25px;
-     height: 67px;
+    margin-top: 25px;
+    height: 67px;
 }
 
-.collections{
-    padding:20px 35px 25px 0; 
+.collections {
+    padding: 20px 35px 25px 0;
     background-color: #7AC751;
     color: white;
     width: 260px;
     height: 67px;
     position: relative;
-   
+
 }
 
 /* .collections img{
@@ -151,7 +171,7 @@ a:hover {
     height: 24px;
 } */
 
-.collections button{
+.collections button {
     padding-left: 33px;
     background-color: transparent;
     border: none;
@@ -163,13 +183,13 @@ a:hover {
     margin-bottom: 28px;
 }
 
-.collections button:hover{
+.collections button:hover {
     cursor: pointer;
     scale: 1.1;
 }
 
 .collections ul {
-     width: 260px;
+    width: 260px;
     height: 453px;
     background-color: #F7F8FA;
     /* position: absolute;
@@ -186,16 +206,17 @@ a:hover {
     border-bottom: 1px solid #E3E3E3;
 }
 
-.collections li  a{
+.collections li a {
     color: black;
     float: left;
     text-transform: capitalize;
     text-decoration-line: none;
 }
 
-.collections li:hover{
+.collections li:hover {
     background-color: gray;
     scale: 1.1;
+
     a {
         color: white;
     }
@@ -207,13 +228,13 @@ a:hover {
 
 /*--------------------------------- NAVLIST----------------------- */
 
-.navlist{
+.navlist {
     margin-left: 82px;
-     padding:25px 0px 25px 0px;
+    padding: 25px 0px 25px 0px;
 
 }
 
-.navlist ul{
+.navlist ul {
     width: 506px;
     height: 17px;
     display: flex;
@@ -222,20 +243,20 @@ a:hover {
     gap: 30px;
 }
 
-.navlist li{
+.navlist li {
     list-style: none;
     /* display: inline; */
 }
 
-.navlist a{
+.navlist a {
     color: #555555;
     text-transform: uppercase;
     text-decoration: none;
     padding: 8px 10px;
 }
 
-.navlist a:hover{
-    background-color:#7AC751;
+.navlist a:hover {
+    background-color: #7AC751;
     border-radius: 2px;
     scale: 1.1;
     color: white;
@@ -243,7 +264,7 @@ a:hover {
 
 /* -----------------------------MAIN IMAGE------------------------------- */
 
-.image{
+.image {
     background-color: #F1FAFFE0;
     width: 899px;
     height: 439px;
@@ -256,11 +277,11 @@ a:hover {
 
 /* ---------------------------block1------------------ */
 
-.block1{
+.block1 {
     padding: 73px 0 0 47px;
 }
 
-.p1{
+.p1 {
     color: #7AC751;
     font-size: 22px;
     letter-spacing: 5%;
@@ -270,19 +291,19 @@ a:hover {
     text-transform: uppercase;
 }
 
-.block1 h1{
+.block1 h1 {
     width: 318px;
     height: 96px;
     font-size: 40px;
     line-height: 100%;
-    text-transform:capitalize;
+    text-transform: capitalize;
 }
 
-h1 span{
-    border-bottom: 2px solid #7AC751 ;
+h1 span {
+    border-bottom: 2px solid #7AC751;
 }
 
-.percent{
+.percent {
     width: 324px;
     height: 25px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -291,21 +312,21 @@ h1 span{
     line-height: 26px;
 }
 
-.block1 button{
+.block1 button {
     width: 129px;
-    height:40px ;
+    height: 40px;
     border-radius: 5px;
-    background-color:#7AC751 ;
+    background-color: #7AC751;
     border: none;
     margin-top: 35px;
 }
 
-.block1 button a{
+.block1 button a {
     color: white;
     text-decoration: none;
 }
 
-.block1 button:hover{
+.block1 button:hover {
     background-color: #5ea935;
     color: white;
     scale: 0.9;
@@ -314,7 +335,7 @@ h1 span{
 
 /* -------------------------------block2------------------ */
 
-.block2 img{
+.block2 img {
     background-color: #F1FAFFE0;
     padding-top: 36px;
     padding-right: 42px;
@@ -322,39 +343,39 @@ h1 span{
 
 /* --------------------------------block3-------------------------- */
 
-.block3{
-   margin: 0 auto;
-   margin-top: 45px;
+.block3 {
+    margin: 0 auto;
+    margin-top: 45px;
 }
 
-.box p{
+.box p {
     font-size: 7px;
 }
 
-.box{
+.box {
     width: 98px;
     height: 92px;
     border: 2px solid white;
     border-radius: 8px;
     background-color: #fcfeffe0;
     margin-bottom: 25px;
-    text-align: center; 
+    text-align: center;
 }
 
 
-.pricee{
+.pricee {
     color: #7AC751;
     line-height: 26px;
     margin-top: -5px;
     font-weight: bolder;
 }
 
-.name{
+.name {
     padding-bottom: 2px;
     margin-top: -5px;
 }
 
-.box:hover{
+.box:hover {
     scale: 1.1;
     transition: 0.3s all ease-in;
 }
@@ -364,7 +385,7 @@ h1 span{
     width: 1172px;
     height: 61px;
     display: flex;
-    justify-content:space-between ;
+    justify-content: space-between;
 }
 
 .card {
@@ -372,7 +393,7 @@ h1 span{
     height: 60px;
     border: none;
     border-radius: 8px;
-    
+
 }
 
 
@@ -407,7 +428,9 @@ h1 span{
     box-shadow: 5px 5px 5px 5px rgb(233, 240, 255, 1);
     background-color: #E3E3E3;
 
-    h3, p, img {
+    h3,
+    p,
+    img {
         color: white;
     }
 
@@ -431,7 +454,8 @@ h1 span{
     margin-bottom: 17px;
 }
 
-.img2, img3 {
+.img2,
+img3 {
     width: 485px;
     height: 247px;
 }
@@ -441,7 +465,8 @@ h1 span{
     transition: 0.2s all ease-in;
     cursor: pointer;
 }
-.con4{
+
+.con4 {
     padding-top: 500px;
 }
 
@@ -459,7 +484,7 @@ h2 {
     color: grey;
 }
 
-.green{
+.green {
     height: 74%;
 }
 
@@ -495,7 +520,7 @@ h2 {
     text-transform: uppercase;
     color: darkslategray;
     word-spacing: 2px;
-    letter-spacing:1px;
+    letter-spacing: 1px;
 }
 
 .boxx h4 p {
@@ -514,7 +539,7 @@ body {
 
 .span {
     color: white;
-    
+
 }
 
 .discount {
@@ -532,17 +557,17 @@ body {
 }
 
 
-.con5{
+.con5 {
     margin-top: 65px;
 }
 
-.boxx :hover{
+.boxx :hover {
     scale: 0.9;
     transition: 0.3s all ease-in;
 }
 
 /* ------------------------------------------------------------------ */
-.headd{
+.headd {
     text-transform: uppercase;
     font-size: 36px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -554,18 +579,18 @@ body {
     margin-bottom: 45px;
 }
 
-.choicebar ul{
+.choicebar ul {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 6rem;
     list-style-type: none;
     margin-bottom: 73px;
-   
-   
+
+
 }
 
-.choicebar li a{
+.choicebar li a {
     color: black;
     margin-right: 70px;
     text-decoration: none;
@@ -575,14 +600,14 @@ body {
     color: #C2C2C2;
 }
 
-.choicebar ul li a:hover{
-   color: #7AC751;
+.choicebar ul li a:hover {
+    color: #7AC751;
 }
 
 
 
 .chairs {
-   /* border: 1px solid black; */
+    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -593,80 +618,78 @@ body {
 
 
 .chair {
-   /* border: 1px solid black; */
-   width: 270px;
-   height: 387px;
-   margin-bottom: 45px;
+    /* border: 1px solid black; */
+    width: 270px;
+    height: 387px;
+    margin-bottom: 45px;
 }
 
-.chair img{
+.chair img {
     box-sizing: border-box;
-    width:100%;
-    height: 287.82px;    
+    width: 100%;
+    height: 287.82px;
 }
 
-.chtext{
-     /* border: 1px solid black; */
-     margin-top: 15px;
-     margin-bottom: 6px;
+.chtext {
+    /* border: 1px solid black; */
+    margin-top: 15px;
+    margin-bottom: 6px;
 }
 
-.chtext p:first-child{
-      font-family: "Mulish", sans-serif;
-      color: #757575B5;
-      font-size: 14px;
-      font-weight: 400;
-      text-transform: uppercase;
-      margin-bottom: 9px;
+.chtext p:first-child {
+    font-family: "Mulish", sans-serif;
+    color: #757575B5;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 9px;
 }
 
-.chtext p:last-child{
+.chtext p:last-child {
     color: #555555;
     font-family: "rubik", sans-serif;
     font-size: 20px;
     font-weight: 400;
-    span{
+
+    span {
         text-transform: uppercase;
 
     }
 }
 
-.prise{
+.prise {
     /* border: 1px solid black; */
     float: left;
-    font-family: "mulish",sans-serif;
+    font-family: "mulish", sans-serif;
 }
 
-.prise p{
+.prise p {
     color: #7AC751;
     font-size: 18px;
     font-weight: 700;
-    del{
+
+    del {
         color: #CCCCCC;
         margin-left: 9px;
     }
 }
 
-.rating{
-    /* border: 1px solid rgb(3, 243, 191); */
-}
-
-.rate{
+.rate {
     float: right;
 }
 
-.rate li{
+.rate li {
     float: left;
     list-style-type: none;
 }
 
-.rate li a img{
+.rate li a img {
     width: 10.53px;
     height: 9.58px;
 }
 
-.chair:hover{
+.chair:hover {
     scale: 1.1;
-    transition: 0.1s all ease-in;
-    
+    transition: 0.2s all ease-in;
+
 }
