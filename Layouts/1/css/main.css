@@ -312,21 +312,22 @@ h1 span {
     line-height: 26px;
 }
 
-.block1 button {
+.shopbtn {
     width: 129px;
     height: 40px;
     border-radius: 5px;
     background-color: #7AC751;
     border: none;
     margin-top: 35px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
 }
 
-.block1 button a {
-    color: white;
-    text-decoration: none;
-}
 
-.block1 button:hover {
+.shopbtn:hover {
     background-color: #5ea935;
     color: white;
     scale: 0.9;
@@ -663,13 +664,15 @@ body {
 .headd {
     text-transform: uppercase;
     font-size: 36px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "mulish", sans-serif;
     font-weight: 700;
     width: 188px;
     height: 45px;
     margin-left: 32rem;
     color: #555555;
     margin-bottom: 45px;
+    white-space: nowrap;
+
 }
 
 .choicebar ul {
@@ -818,4 +821,190 @@ body {
     box-shadow: 5px 5px 0px 0px rgba(33, 71, 153, 0.3);
     cursor: pointer;
     background-color: rgb(245, 253, 6);
+}
+
+/* ----------------------------------------- */
+/* .con7 {
+    border: 1px solid black;
+} */
+
+/* .head {
+    border: 1px solid black;
+} */
+
+.special {
+    height: 249px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.offer1 {
+    width: 570px;
+    height: 249px;
+    background-image: url(/Layouts/1/images/offers/Rectangle\ 43.png);
+    position: relative;
+    margin-right: 30px;
+}
+
+.percent {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64px;
+    height: 23px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    background-color: #00B7F1;
+    color: white;
+    font-family: "mulish", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.8%;
+    text-align: center;
+    padding: 5px 7.48px 4.2px 8px;
+
+}
+
+.offText {
+    padding: 28px 319px 29px 24px;
+
+    h1 {
+        font-family: "mulish", sans-serif;
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 100%;
+        width: 227px;
+        height: 28px;
+        color: #555555;
+        margin-bottom: 11px;
+    }
+
+    p {
+        font-family: "mulish", sans-serif;
+        color: #757575;
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 400;
+        width: 227px;
+        height: 38px;
+        margin-bottom: 15px;
+
+    }
+}
+
+.saleBtn {
+    width: 213px;
+    height: 38px;
+    display: flex;
+    padding-top: 4px;
+    position: relative;
+    font-family: "mulish", sans-serif;
+    margin-bottom: 10px;
+
+    p {
+        color: #7AC751;
+        font-weight: 700;
+        width: 46px;
+        height: 21px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0.5%;
+
+        del {
+            width: 50px;
+            height: 21px;
+            font-weight: 700;
+        }
+    }
+}
+
+.saleBtn button {
+    width: 91px;
+    height: 26px;
+    border-radius: 5px;
+    background-color: #7AC751;
+    border: none;
+    position: absolute;
+    top: 3px;
+    right: 1px;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+.saleBtn button :hover {
+    background-color: #5ea935;
+    color: white;
+    scale: 0.9;
+    transition: 0.2s all ease-in;
+}
+
+.countdown {
+    padding: 5px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        font-family: "rubik", sans-serif;
+        line-height: 120%;
+    }
+
+    li {
+        text-align: center;
+        border: none;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: #7AC751;
+        color: white;
+        padding-top: 1px;
+        font-size: 14px;
+        font-weight: 600;
+        margin-right: 13px;
+
+        span {
+            font-size: 6px;
+            letter-spacing: 0.5%;
+            font-weight: 400;
+            text-transform: uppercase;
+
+        }
+
+    }
+}
+
+/* 222222222222222222222222222222222222222222222222222 */
+
+.offer2 {
+    background-image: url(/Layouts/1/images/offers/Rectangle\ 44.png);
+    width: 570px;
+    height: 249px;
+    position: relative;
+    margin-right: 30px;
+
+}
+
+.percent2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 64px;
+    height: 23px;
+    border: none;
+    border-bottom-left-radius: 5px;
+    background-color: #00B7F1;
+    color: white;
+    font-family: "mulish", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 130%;
+    letter-spacing: 0.8%;
+    text-align: center;
+    padding: 5px 7.48px 4.2px 8px;
+
 }
