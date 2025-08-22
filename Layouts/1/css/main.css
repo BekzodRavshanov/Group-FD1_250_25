@@ -442,8 +442,9 @@ h1 span {
 .furniture {
     margin-top: 70px;
     display: flex;
-    font-family: "mulish",sans-serif;
-     a{
+    font-family: "mulish", sans-serif;
+
+    a {
         font-size: 16px;
         font-weight: 400;
         line-height: 26px;
@@ -459,19 +460,21 @@ h1 span {
     position: relative;
 }
 
-.f1{
+.f1 {
     position: absolute;
     width: 301px;
     height: 101px;
-    top:49px;
-    left:31px;
-    h1{
+    top: 49px;
+    left: 31px;
+
+    h1 {
         font-size: 22px;
         font-weight: 600;
         line-height: 26px;
         margin-bottom: 10px;
     }
-    p{
+
+    p {
         color: #7AC751;
         font-size: 20px;
         line-height: 26px;
@@ -479,7 +482,7 @@ h1 span {
     }
 }
 
-.nd{
+.nd {
     background-image: url(/Layouts/1/images/page2/Rectangle\ 34.png);
     width: 485px;
     height: 247px;
@@ -491,24 +494,26 @@ h1 span {
     position: absolute;
     width: 301px;
     height: 101px;
-    top:52px;
-    left:24.04px;
-    h1{
+    top: 52px;
+    left: 24.04px;
+
+    h1 {
         font-size: 22px;
         font-weight: 600;
         line-height: 26px;
         margin-bottom: 8px;
     }
-    p{
+
+    p {
         color: #7AC751;
         font-size: 20px;
         line-height: 26px;
         margin-bottom: 9px;
     }
-   
+
 }
 
-.rd{
+.rd {
     background-image: url(/Layouts/1/images/page2/Rectangle\ 33.png);
     width: 485px;
     height: 247px;
@@ -519,33 +524,37 @@ h1 span {
     position: absolute;
     width: 301px;
     height: 101px;
-    top:37px;
-    left:24.04px;
-    h1{
+    top: 37px;
+    left: 24.04px;
+
+    h1 {
         font-size: 22px;
         font-weight: 600;
         line-height: 100%;
         margin-bottom: 8px;
     }
-    p{
+
+    p {
         color: #7AC751;
         font-size: 20px;
         line-height: 26px;
         margin-bottom: 8px;
     }
-   
+
 
 }
 
-.furniture .first:hover{
+.furniture .first:hover {
     scale: 0.9;
     transition: 0.4s all ease;
 }
-.furniture .nd:hover{
+
+.furniture .nd:hover {
     scale: 0.9;
     transition: 0.4s all ease;
 }
-.furniture .rd:hover{
+
+.furniture .rd:hover {
     scale: 0.9;
     transition: 0.4s all ease;
 }
@@ -705,7 +714,7 @@ body {
     position: relative;
 }
 
-.nw{
+.nw {
     position: absolute;
     top: 0;
     left: 0;
@@ -716,14 +725,14 @@ body {
     background-color: #00B7F1;
     color: white;
     text-align: center;
-    font-family: "mulish",sans-serif;
+    font-family: "mulish", sans-serif;
     font-size: 12px;
     letter-spacing: 0.8%;
     line-height: 130%;
     font-weight: 600;
 }
 
-.sl{
+.sl {
     position: absolute;
     top: 0;
     left: 0;
@@ -734,7 +743,7 @@ body {
     background-color: #7AC751;
     color: white;
     text-align: center;
-    font-family: "mulish",sans-serif;
+    font-family: "mulish", sans-serif;
     font-size: 12px;
     letter-spacing: 0.8%;
     line-height: 130%;
@@ -806,7 +815,7 @@ body {
 .chair:hover {
     scale: 1.1;
     transition: 0.2s all ease-in;
-    box-shadow:  5px 5px 0px 0px rgba(33, 71, 153, 0.3);
+    box-shadow: 5px 5px 0px 0px rgba(33, 71, 153, 0.3);
     cursor: pointer;
     background-color: rgb(245, 253, 6);
 }
