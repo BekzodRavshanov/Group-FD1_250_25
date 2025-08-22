@@ -691,5 +691,7 @@ body {
 .chair:hover {
     scale: 1.1;
     transition: 0.2s all ease-in;
-
+    box-shadow:  5px 5px 0px 0px rgba(33, 71, 153, 0.3);
+    cursor: pointer;
+    background-color: rgb(245, 253, 6);
 }
