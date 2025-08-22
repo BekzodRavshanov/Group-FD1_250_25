@@ -691,7 +691,6 @@ body {
 
 
 .chairs {
-    /* border: 1px solid black; */
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -699,13 +698,47 @@ body {
     flex-wrap: wrap;
 }
 
-
-
 .chair {
-    /* border: 1px solid black; */
     width: 270px;
     height: 387px;
     margin-bottom: 45px;
+    position: relative;
+}
+
+.nw{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    border-bottom-right-radius: 5px;
+    width: 44.68px;
+    height: 20.42px;
+    background-color: #00B7F1;
+    color: white;
+    text-align: center;
+    font-family: "mulish",sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.8%;
+    line-height: 130%;
+    font-weight: 600;
+}
+
+.sl{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    border-bottom-right-radius: 5px;
+    width: 44.68px;
+    height: 20.42px;
+    background-color: #7AC751;
+    color: white;
+    text-align: center;
+    font-family: "mulish",sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.8%;
+    line-height: 130%;
+    font-weight: 600;
 }
 
 .chair img {
@@ -715,7 +748,6 @@ body {
 }
 
 .chtext {
-    /* border: 1px solid black; */
     margin-top: 15px;
     margin-bottom: 6px;
 }
@@ -742,7 +774,6 @@ body {
 }
 
 .prise {
-    /* border: 1px solid black; */
     float: left;
     font-family: "mulish", sans-serif;
 }
