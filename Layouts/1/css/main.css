@@ -714,6 +714,12 @@ body {
     position: relative;
 }
 
+.chair img {
+    box-sizing: border-box;
+    width: 269.03px;
+    height: 287.82px;
+}
+
 .nw {
     position: absolute;
     top: 0;
@@ -748,12 +754,6 @@ body {
     letter-spacing: 0.8%;
     line-height: 130%;
     font-weight: 600;
-}
-
-.chair img {
-    box-sizing: border-box;
-    width: 100%;
-    height: 287.82px;
 }
 
 .chtext {
