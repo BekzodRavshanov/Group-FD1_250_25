@@ -828,13 +828,21 @@ body {
     border: 1px solid black;
 } */
 
-/* .head {
-    border: 1px solid black;
-} */
+.heead{
+      text-transform: uppercase;
+    font-size: 36px;
+    font-family: "mulish", sans-serif;
+    font-weight: 700;
+    width: 188px;
+    height: 45px;
+    margin-left: 27rem;
+    color: #555555;
+    margin-bottom: 45px;
+    white-space: nowrap;
+}
 
 .special {
     height: 249px;
-    border: 1px solid black;
     display: flex;
 }
 
