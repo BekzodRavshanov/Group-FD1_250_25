@@ -442,28 +442,112 @@ h1 span {
 .furniture {
     margin-top: 70px;
     display: flex;
+    font-family: "mulish",sans-serif;
+     a{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        color: black;
+    }
 }
 
 .first {
     width: 669px;
     height: 511px;
     margin-right: 15px;
+    background-image: url(/Layouts/1/images/page2/Mask\ Group.png);
+    position: relative;
 }
 
-.img2 {
+.f1{
+    position: absolute;
+    width: 301px;
+    height: 101px;
+    top:49px;
+    left:31px;
+    h1{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+        margin-bottom: 10px;
+    }
+    p{
+        color: #7AC751;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 13px;
+    }
+}
+
+.nd{
+    background-image: url(/Layouts/1/images/page2/Rectangle\ 34.png);
+    width: 485px;
+    height: 247px;
+    position: relative;
     margin-bottom: 17px;
 }
 
-.img2,
-img3 {
-    width: 485px;
-    height: 247px;
+.f2 {
+    position: absolute;
+    width: 301px;
+    height: 101px;
+    top:52px;
+    left:24.04px;
+    h1{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+    p{
+        color: #7AC751;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 9px;
+    }
+   
 }
 
-.furniture img:hover {
+.rd{
+    background-image: url(/Layouts/1/images/page2/Rectangle\ 33.png);
+    width: 485px;
+    height: 247px;
+    position: relative;
+}
+
+.f3 {
+    position: absolute;
+    width: 301px;
+    height: 101px;
+    top:37px;
+    left:24.04px;
+    h1{
+        font-size: 22px;
+        font-weight: 600;
+        line-height: 100%;
+        margin-bottom: 8px;
+    }
+    p{
+        color: #7AC751;
+        font-size: 20px;
+        line-height: 26px;
+        margin-bottom: 8px;
+    }
+   
+
+}
+
+.furniture .first:hover{
     scale: 0.9;
-    transition: 0.2s all ease-in;
-    cursor: pointer;
+    transition: 0.4s all ease;
+}
+.furniture .nd:hover{
+    scale: 0.9;
+    transition: 0.4s all ease;
+}
+.furniture .rd:hover{
+    scale: 0.9;
+    transition: 0.4s all ease;
 }
 
 .con4 {
