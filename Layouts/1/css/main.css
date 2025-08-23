@@ -166,10 +166,6 @@ a:hover {
 
 }
 
-/* .collections img{
-    width: 24px;
-    height: 24px;
-} */
 
 .collections button {
     padding-left: 33px;
@@ -818,9 +814,19 @@ body {
 .chair:hover {
     scale: 1.1;
     transition: 0.2s all ease-in;
-    box-shadow: 5px 5px 0px 0px rgba(33, 71, 153, 0.3);
     cursor: pointer;
-    background-color: rgb(245, 253, 6);
+    /* box-shadow: 5px 5px 0px 0px rgba(33, 71, 153, 0.3);
+    background-color: rgb(245, 253, 6); */
+    background-color: #2db4f3;
+    box-shadow: 5px 5px #87c9e8;
+
+    .prise>p {
+        color: black;
+
+        del {
+            color: white;
+        }
+    }
 }
 
 /* ----------------------------------------- */
@@ -1017,13 +1023,38 @@ body {
 
 }
 
-.offer1:hover{
+.offer1:hover {
     scale: 0.9;
     transition: 0.3s all ease-in;
     box-shadow: 0 10px 10px 0 rgb(153, 238, 5);
 }
-.offer2:hover{
+
+.offer2:hover {
     scale: 0.9;
     transition: 0.3s all ease-in;
     box-shadow: 0 10px 10px 0 rgb(153, 238, 5);
 }
+
+/* ------------------------------------ */
+.con8 {
+    margin-top: 120px;
+}
+
+.per_sl {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    border-bottom-right-radius: 5px;
+    width: 44.68px;
+    height: 20.42px;
+    background-color: #FF6868;
+    color: white;
+    text-align: center;
+    font-family: "mulish", sans-serif;
+    font-size: 12px;
+    letter-spacing: 0.8%;
+    line-height: 130%;
+    font-weight: 600;
+}
+
