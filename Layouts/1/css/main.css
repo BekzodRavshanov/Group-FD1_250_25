@@ -230,7 +230,7 @@ a:hover {
 .navlist {
     margin-left: 82px;
     padding: 25px 0px 25px 0px;
-    font-family: "rubik",sans-serif;
+    font-family: "rubik", sans-serif;
 
 }
 
@@ -819,10 +819,7 @@ body {
     scale: 1.1;
     transition: 0.2s all ease-in;
     cursor: pointer;
-    /* box-shadow: 5px 5px 0px 0px rgba(33, 71, 153, 0.3);
-    background-color: rgb(245, 253, 6); */
-    background-color: #2db4f3;
-    box-shadow: 5px 5px #87c9e8;
+    box-shadow: 5px 5px 5px 5px rgba(33, 71, 153, 0.3);
 
     .prise>p {
         color: black;
