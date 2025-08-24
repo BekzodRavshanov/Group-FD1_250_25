@@ -1135,13 +1135,6 @@ body {
 .lg button:active {
     background-color: #00B7F1;
 }
-
-.con10 {
-    border: 1px solid black;
-    width: 1500px;
-    height: 800px;
-}
-
 /* ------------------------------------ */
 .con10 {
     margin: 0 auto;
@@ -1151,16 +1144,20 @@ body {
 }
 
 .heaad {
-    border: 1px solid black;
-    padding: 1rem;
     text-align: center;
     margin-bottom: 50px;
+    font-family: "mulish",sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    p{
+        color: #555555;
+        
+    }
+
 }
 
 .commentBlock {
-    /* width: 816px;
-    height: 312px; */
-    border: 1px solid black;
+    border: none;
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -1168,7 +1165,6 @@ body {
 }
 
 .spn {
-    border: 1px solid black;
     width: 76px;
     height: 76px;
     padding: 19px 25.33px 19px 27.2px;
@@ -1177,23 +1173,19 @@ body {
 
 .spn a {
     color: #CCCCCC;
-    /* color: white; */
     font-size: 35px;
     font-weight: 900;
     width: 38px;
     height: 23.47px;
     border-radius: 1px;
-    border: 1px solid black;
-
-
+    text-decoration: none;
 }
 
 .mainComment {
-    border: 1px solid black;
     width: 816px;
     height: 312px;
     position: relative;
-    background-color: #F8FAFB;
+    background-color: #e8eff3;
     border-radius: 8px;
 
     img {
@@ -1206,13 +1198,10 @@ body {
 }
 
 .commentext {
-    border: 1px solid black;
-    /* margin-top: 80px; */
-    padding: 80px 125px 136px 125px;
+    margin: 80px 125px 136px 125px;
     letter-spacing: 0.5%;
 
     p {
-        border: 1px solid black;
         width: 566px;
         height: 96px;
         text-align: center;
@@ -1221,6 +1210,7 @@ body {
         font-size: 16px;
         line-height: 150%;
         color: #515151;
+        margin-bottom: 32px;
     }
 
     h2 {
@@ -1228,7 +1218,8 @@ body {
         font-size: 24px;
         line-height: 120%;
         color: #555555;
-        
+        margin-bottom: 8px;
+
     }
 
     h4 {
@@ -1238,5 +1229,6 @@ body {
         line-height: 125%;
         color: #515151;
         font-weight: 600;
+        margin-left: 15rem;
     }
 }
