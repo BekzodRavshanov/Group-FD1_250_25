@@ -75,6 +75,9 @@ a:hover {
     font-size: 24px;
     margin-left: 5px;
     margin-top: 5px;
+    font-family: "rubik", sans-serif;
+    color: #555555;
+    font-weight: 500;
 }
 
 .searchbar {
@@ -1171,8 +1174,9 @@ body {
 .spn a:hover {
     background-color: #CCCCCC;
     color: white;
-    border-radius: 2px;
-    scale: 1.1;
+    padding: 10px;
+    border-radius: 5px;
+    scale: 1.5;
     transition: 0.3s all ease-in;
 }
 
@@ -1331,4 +1335,103 @@ body {
 .banner4:hover {
     scale: 0.9;
     transition: 0.3s all ease-in;
+}
+
+/* ----------------------------footer------------------ */
+.con12>.container {
+    height: 299px;
+    margin-top: 115px;
+    font-family: "rubik", sans-serif;
+    padding: 10px;
+}
+
+.footerbar {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+
+.footer1 {
+    width: 320px;
+    padding: 5px;
+
+    p {
+        width: 318px;
+        height: 96px;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #555555;
+
+    }
+
+    ul {
+        width: 173.8px;
+        height: 32.2px;
+        display: flex;
+
+        li {
+            list-style-type: none;
+            margin-right: 15px;
+
+        }
+    }
+}
+
+.footer2 {
+    width: 167px;
+    height: 200px;
+
+    ul {
+        text-decoration: none;
+
+        li {
+            list-style-type: none;
+
+            a {
+                color: #515151;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 40px;
+                letter-spacing: 1%;
+                color: #555555;
+            }
+
+        }
+    }
+}
+
+
+hr{
+    margin-top: 40px;
+    margin-bottom: 28px;
+    color: #969696;
+}
+
+.foot {
+    width: 1140px;
+    height: 14px;
+    display: inline-flex;
+    font-size: 14px;
+    font-family: "rubik", sans-serif;
+    color: #555555;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+    p {
+        margin-right: 640px;
+
+    }
+
+    ul {
+        display: inline-flex;
+
+        li {
+            margin-right: 15px;
+            list-style-type: none;
+        }
+    }
+
 }
