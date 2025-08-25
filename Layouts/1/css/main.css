@@ -820,14 +820,6 @@ body {
     transition: 0.2s all ease-in;
     cursor: pointer;
     box-shadow: 5px 5px 5px 5px rgba(33, 71, 153, 0.3);
-
-    .prise>p {
-        color: black;
-
-        del {
-            color: white;
-        }
-    }
 }
 
 /* ----------------------------------------- */
