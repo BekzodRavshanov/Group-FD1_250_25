@@ -427,14 +427,6 @@ h1 span {
 .card:hover {
     cursor: pointer;
     box-shadow: 5px 5px 5px 5px rgb(233, 240, 255, 1);
-    background-color: #E3E3E3;
-
-    h3,
-    p,
-    img {
-        color: white;
-    }
-
     scale: 1.1;
     transition: 0.2s all ease-in;
 }
@@ -1174,6 +1166,14 @@ body {
     height: 23.47px;
     border-radius: 1px;
     text-decoration: none;
+}
+
+.spn a:hover {
+    background-color: #CCCCCC;
+    color: white;
+    border-radius: 2px;
+    scale: 1.1;
+    transition: 0.3s all ease-in;
 }
 
 .mainComment {
