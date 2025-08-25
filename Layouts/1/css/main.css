@@ -1135,6 +1135,7 @@ body {
 .lg button:active {
     background-color: #00B7F1;
 }
+
 /* ------------------------------------ */
 .con10 {
     margin: 0 auto;
@@ -1146,13 +1147,14 @@ body {
 .heaad {
     text-align: center;
     margin-bottom: 50px;
-    font-family: "mulish",sans-serif;
+    font-family: "mulish", sans-serif;
     font-size: 36px;
     font-weight: 700;
-    p{
+
+    p {
         color: #555555;
         text-transform: uppercase;
-        
+
     }
 
 }
@@ -1233,65 +1235,108 @@ body {
         margin-left: 15rem;
     }
 }
+
 /* ------------------------------------------------------ */
-.con11{
-    border: 1px solid black;
-    height: 1000px;
-    .container{
-         border: 1px solid black;
-         width: 1166px;
-         height: 1040px;
-    }
-    p{
-        border: 1px solid black;
-    }
+.banners {
+    width: 1166px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3px;
 }
 
-.banners{
-    border: 1px solid black;
-}
-
-.banner{
-    border: 1px solid black;
+.banner {
     width: 569.75px;
     height: 455.28px;
     background-image: url(/Layouts/1/images/banners/Card.png);
     color: white;
+    margin: 6px;
+    border-radius: 8px;
 }
 
-.btext{
-    border: 1px solid white;
-    width:490px;
+.banner2 {
+    width: 569.75px;
+    height: 455.28px;
+    background-image: url(/Layouts/1/images/banners/Card\ \(2\).png);
+    color: white;
+    margin: 6px;
+    border-radius: 8px;
+}
+
+.banner3 {
+    width: 569.75px;
+    height: 455.28px;
+    background-image: url(/Layouts/1/images/banners/Card\ \(1\).png);
+    color: white;
+    margin: 6px;
+    border-radius: 8px;
+}
+
+.banner4 {
+    width: 569.75px;
+    height: 455.28px;
+    background-image: url(/Layouts/1/images/banners/Card\ \(3\).png);
+    color: white;
+    margin: 6px;
+    border-radius: 8px;
+}
+
+.btext {
+    width: 490px;
     height: 200px;
     margin-top: 252px;
     margin-left: 44.04px;
     font-family: "mulish", sans-serif;
-    span{
+
+    span {
         width: 99.6px;
         height: 24px;
         background-color: white;
         border-radius: 2px;
         padding: 4px;
         margin-right: 5px;
-        a{
+
+        a {
             color: #7AC751;
             width: 74px;
             height: 18px;
+            text-transform: uppercase;
         }
     }
-    p{
-       font-size: 14px;
-       line-height: 130%;
-       letter-spacing: 0.8%;
-       font-weight: 400;
+
+    p {
+        font-size: 14px;
+        line-height: 130%;
+        letter-spacing: 0.8%;
+        font-weight: 400;
     }
-    h1{
+
+    h1 {
         font-size: 39px;
         font-weight: 700;
         line-height: 120%;
         letter-spacing: 0.5%;
         margin-top: 21px;
-        margin-bottom: 38px;
+        margin-bottom: 20px;
     }
-    
+
+}
+
+.banner:hover {
+    scale: 0.9;
+    transition: 0.3s all ease-in;
+}
+
+.banner2:hover {
+    scale: 0.9;
+    transition: 0.3s all ease-in;
+}
+
+.banner3:hover {
+    scale: 0.9;
+    transition: 0.3s all ease-in;
+}
+
+.banner4:hover {
+    scale: 0.9;
+    transition: 0.3s all ease-in;
 }
