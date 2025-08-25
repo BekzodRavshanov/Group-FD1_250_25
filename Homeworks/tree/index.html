@@ -7,36 +7,73 @@
     <title>Document</title>
 </head>
 <style>
-    div li:first-child {
+    body div:first-child li:first-child {
         color: red;
 
     }
 
-    div li span {
+    body div:first-child li span {
         color: green;
     }
 
-    div li:last-child {
+    body div:first-child li:last-child {
         color: blue;
     }
 
-    ul {
+    body div:first-child ul {
         list-style-type: none;
     }
 
-    div p em {
+    body div:first-child p em {
         color: yellow;
     }
 
-    div span em {
+    body div:first-child span em {
         color: black;
     }
 
     /* --------------- */
-    body ul:nth-child(1) li{
+    body li:first-child {
+        color: orange;
     }
 
+    body li:first-child span {
+        color: rosybrown;
+    }
 
+    body li:first-child em {
+        color: violet;
+    }
+
+    body ul li:nth-child(2) {
+        color: aqua;
+    }
+
+    body ul {
+        color: indigo;
+    }
+
+    body div:last-child li:first-child {
+        color: indigo;
+    }
+
+    body div:last-child li span {
+        color: brown;
+    }
+
+    body div:last-child li em {
+        color: chocolate;
+    }
+
+    body div:last-child p em{
+        color:white;
+        width: 70px;
+        height: 30px;
+        border: 1px solid black;
+    }
+    body p em{
+        color: gray;
+    }
 </style>
 
 <body>
@@ -76,5 +113,4 @@
     </p>
 
 </body>
-
 </html>
