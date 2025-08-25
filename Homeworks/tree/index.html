@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div li:first-child {
+        color: red;
+
+    }
+
+    div li span {
+        color: green;
+    }
+
+    div li:last-child {
+        color: blue;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    div p em {
+        color: yellow;
+    }
+
+    div span em {
+        color: black;
+    }
+
+    /* --------------- */
+    body ul:nth-child(1) li{
+    }
+
+
+</style>
+
+<body>
+    <div>
+        <ul>
+            <li>red</li>
+            <li><span>green</span></li>
+            <li><em>blue</em></li>
+        </ul>
+        <p>
+            <em>
+                yellow
+            </em>
+        </p>
+        <span>
+            <em>black</em>
+        </span>
+    </div>
+    <ul>
+        <li>orange <span>rose</span> <em>violet</em></li>
+        <li>
+            <p><em>aqua</em></p>
+        </li>
+        <li>
+            <div>
+                <ul>
+                    <li>indigo</li>
+                    <li><em>chocolate</em></li>
+                    <li><span>brown</span></li>
+                </ul>
+                <p>white</p>
+            </div>
+        </li>
+    </ul>
+    <p>
+        <em>gray</em>
+    </p>
+
+</body>
+
+</html>
