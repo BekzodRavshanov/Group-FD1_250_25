@@ -452,7 +452,7 @@ h1 span {
     width: 669px;
     height: 511px;
     margin-right: 15px;
-    background-image: url(/Layouts/1/images/page2/Mask\ Group.png);
+    background-image: url(../Layouts/1/images/page2/maskg.png);
     position: relative;
 }
 
@@ -479,7 +479,7 @@ h1 span {
 }
 
 .nd {
-    background-image: url(/Layouts/1/images/page2/Rectangle\ 34.png);
+    background-image: url(../Layouts/1/images/page2/Rectangle\ 34.png);
     width: 485px;
     height: 247px;
     position: relative;
@@ -510,7 +510,7 @@ h1 span {
 }
 
 .rd {
-    background-image: url(/Layouts/1/images/page2/Rectangle\ 33.png);
+    background-image: url(../Layouts/1/images/page2/Rectangle\ 33.png);
     width: 485px;
     height: 247px;
     position: relative;
@@ -747,7 +747,7 @@ h1 span {
 .offer1 {
     width: 570px;
     height: 249px;
-    background-image: url(/Layouts/1/images/offers/Rectangle\ 43.png);
+    background-image: url(../Layouts/1/images/offers/Rectangle\ 43.png);
     position: relative;
     margin-right: 30px;
 }
@@ -887,7 +887,7 @@ h1 span {
 /* 222222222222222222222222222222222222222222222222222 */
 
 .offer2 {
-    background-image: url(/Layouts/1/images/offers/Rectangle\ 44.png);
+    background-image: url(../Layouts/1/images/offers/Rectangle\ 44.png);
     width: 570px;
     height: 249px;
     position: relative;
@@ -1147,7 +1147,7 @@ h1 span {
 .banner {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/Card.png);
+    background-image: url(../Layouts/1/images/banners/Card.png);
     color: white;
     margin: 6px;
     border-radius: 8px;
@@ -1156,7 +1156,7 @@ h1 span {
 .banner2 {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/Card\ \(2\).png);
+    background-image: url(../Layouts/1/images/banners/Card\ \(2\).png);
     color: white;
     margin: 6px;
     border-radius: 8px;
@@ -1165,7 +1165,7 @@ h1 span {
 .banner3 {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/Card\ \(1\).png);
+    background-image: url(../Layouts/1/images/banners/Card\ \(1\).png);
     color: white;
     margin: 6px;
     border-radius: 8px;
@@ -1174,7 +1174,7 @@ h1 span {
 .banner4 {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/Card\ \(3\).png);
+    background-image: url(../Layouts/1/images/banners/Card\ \(3\).png);
     color: white;
     margin: 6px;
     border-radius: 8px;
