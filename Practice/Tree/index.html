@@ -7,6 +7,13 @@
     <title>Document</title>
 </head>
 <style>
+    body {
+        background-color: rgb(163, 227, 156);
+        font-weight: 700;
+        font-family: sans-serif;
+        font-size: 16px;
+    }
+
     body div:first-child li:first-child {
         color: red;
 
@@ -33,19 +40,24 @@
     }
 
     /* --------------- */
+    body ul li {
+        list-style-type: none;
+    }
+
     body li:first-child {
         color: orange;
     }
 
     body li:first-child span {
         color: rosybrown;
+
     }
 
     body li:first-child em {
         color: violet;
     }
 
-    body ul li:nth-child(2) em{
+    body ul li:nth-child(2) em {
         color: aqua;
     }
 
@@ -65,13 +77,11 @@
         color: chocolate;
     }
 
-    body div:last-child p em{
-        color:white;
-        width: 70px;
-        height: 30px;
-        border: 1px solid black;
+    body div:last-child p {
+        color: white;
     }
-    body p em{
+
+    body p em {
         color: gray;
     }
 </style>
@@ -113,4 +123,5 @@
     </p>
 
 </body>
+
 </html>
