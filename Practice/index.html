@@ -1,44 +1,216 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Forms</title>
 </head>
+<style>
+    .wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .block {
+        width: 300px;
+    }
+</style>
+
 <body>
-    <div style="padding:0 1rem;">
-        <h1 style="text-align: center;font-size: 50px;">Заголовок первого уровня</h1>
-        <h2>Предварительно форматированный текст:</h2>
-        <img src="img/Снимок экрана 2025-07-18 141458.png" alt="">
-        <hr>
-        <h2>Тег address</h2>
-        <p>
-            <i>Kuprevicha, 1/1, 220141, Minsk, Belarus. Phone: +375.17.2686911</i>
-        </p>
-        <hr>
-        <h2>Семантические и функциональные строчные теги</h2>
-        <p>Пожелания автора:</p>
-        <p><span>Данный текст убрать из монографии</span> и заменить его на <span>вновь помещённый текст.</span></p>
-        <hr>
-        <h2>Работа со строчными и блоковыми цитатами</h2>
-        <p>Цитата короткая:<br>
-        <i>И всё­таки она вертится!</i></p>
-        <p>Цитата занимающая несколько предложений:</p>
-        <p>О сколько нам открытий чудных
-           Готовят просвещенья дух
-           И опыт, сын ошибок трудных,
-           И гений, парадоксов друг,
-           И случай, бог изобретатель...</p>
-        <hr>
-        <h2>Семантические и функциональные строчные теги</h2>
-        <p>
-            <b>Тег<span style="text-transform: uppercase;">&lt;strong&gt;</span>
-            делает данный фрагмент текста более важным.</b>
-            <i>Тег<span>&lt;em&gt;</span>менее важным.</i>
-            В то время как теги <span>&lt;b&gt;</span>и<span>&lt;i&gt;</span>
-            делают текст просто<b>полужирным</b>и<i> курсивом</i>соответственно.
-        </p>
-        <hr>
+    <div class="wrapper">
+        <div class="first">
+            <div class="block">
+                <form action="https://fe.it-academy.by/TestForm.php" method="post">
+                    <h4>Простая форма поиска с вариантами:</h4>
+                    <fieldset>
+                        <legend>Строка поиска</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="text" maxlength="10">
+                                    <button type="submit">Искать</button>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio"> на сайте
+                                    <input type="radio"> в google
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="block">
+                <h4>Простая форма поиска с вариантами:</h4>
+                <form action="https://fe.it-academy.by/TestForm.php" method="post">
+                    <fieldset>
+                        <legend>Строка поиска</legend>
+                        <table>
+                            <tr>
+                                <td><input id="text" type="text" required></td>
+                                <td> <label for="text"><button type="submit">Искать</button></label></td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio"> на сайте
+                                    <input type="radio"> в google
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="second">
+            <div class="block">
+                <h4>Простая форма авторизации:</h4>
+                <form action="https://fe.it-academy.by/TestForm.php" method="post">
+                    <fieldset>
+                        <legend>Авторизуйтесь</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input id="login" type="text" required>
+                                    <label for="login">Логин</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="password" id="password" required>
+                                    <label for="password">Пароль</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="checkbox">Оставатся в системе
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="submit">Войти</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="block">
+                <h4>Опрос(голосование):</h4>
+                <form action="https://fe.it-academy.by/TestForm.php" method="post">
+                    <fieldset>
+                        <legend>
+                            Как вам?
+                        </legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input type="radio">Ничего
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio">неплохо
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio">хоршо
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input type="radio">супер
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="submit">Отправить</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="third">
+            <div class="block">
+                <h4>Отзыв:</h4>
+                <form action="https://fe.it-academy.by/TestForm.php" method="post">
+                    <fieldset>
+                        <legend>Оставьте Ваш отзыв</legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <input id="name" type="text" required>
+                                </td>
+                                <td>
+                                    <label for="name">*Имя</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <input id="email" type="email" required>
+                                </td>
+                                <td>
+                                    <label for="email">*e-mail</label>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <textarea name="textarea" id="" placeholder="Форма отправки" required></textarea>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <button type="submit">Отправить</button>
+                                </td>
+                            </tr>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="block">
+                <h4>Выпадающий и мульти списки:</h4>
+                <form action="https://fe.it-academy.by/TestForm.php" method="post">
+                    <fieldset>
+                        <legend>
+                            Города РБ
+                        </legend>
+                        <table>
+                            <tr>
+                                <td>
+                                    <select name="cities" id="">
+                                        <option value="">Брест</option>
+                                        <option value="">Минск</option>
+                                        <option value="">Витебск</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select multiple name="CityName">
+                                        <optgroup label="Города РБ">
+                                            <option value="">Брест</option>
+                                            <option value="">Минск</option>
+                                            <option value="">Витебск</option>
+                                        </optgroup>
+                                        <optgroup label="Города России"></optgroup>
+                                        <option value="">Москва</option>
+                                        <option value="">Рязань</option>
+                                        <option value="">Магадан</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <button type="submit">Ok</button>
+                                </td>
+                            </tr>
+                        </table>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
