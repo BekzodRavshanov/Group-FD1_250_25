@@ -39,11 +39,14 @@
         display: flex;
         width: 706px;
         height: 18px;
+        
 
         li {
             list-style: none;
             margin-right: 50px;
             font-size: 12px;
+            margin-top: 8px;
+            text-decoration: none;
         }
     }
 
@@ -359,7 +362,6 @@
 
 /* ------------------------MENU----------------------------------------------------- */
 .menu {
-    border: 1px solid white;
     width: 1500px;
     margin: 0 auto;
     margin-bottom: 169px;
@@ -561,6 +563,7 @@ hr {
     .agreement {
         display: flex;
         float: right;
+        margin-top: -13px;
 
         p {
             margin-right: 45px;
