@@ -29,7 +29,6 @@
 .navbar {
     width: 1499.9697265625px;
     height: 30px;
-    border: 1px solid white;
     display: flex;
     justify-content: space-between;
     margin-left: 50px;
@@ -43,7 +42,7 @@
 
         li {
             list-style: none;
-            margin-right: 50px;
+            margin-right: 49px;
             font-size: 12px;
             margin-top: 8px;
             text-decoration: none;
