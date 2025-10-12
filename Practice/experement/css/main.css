@@ -1,0 +1,58 @@
+   body {
+       background-color: rgb(7, 10, 10);
+   }
+
+   .main {
+       margin: 0 auto;
+       width: 1200px;
+       display: flex;
+       justify-content: space-between;
+       background-image: url(/Practice/experement/img/image.png);
+       background-size: cover;
+       padding-top: 2rem
+   }
+
+
+   img {
+       width: 500px;
+   }
+
+   .sukuna {
+       animation: impulse 1s linear infinite;
+   }
+
+   .gojo {
+       animation: pulse 1s linear infinite;
+   }
+
+   @keyframes impulse {
+       from {
+           transition: scale (0.9);
+           filter: drop-shadow(10px 10px 15px rgb(172, 4, 4));
+
+       }
+
+       to {
+           transition: scale(1.1);
+           filter: drop-shadow(5px 5px 10px rgba(255, 0, 0, 0.683));
+       }
+
+   }
+
+   .gojo {
+       animation: pulse 1s linear infinite;
+   }
+
+   @keyframes pulse {
+       from {
+           transition: scale (0.9);
+           filter: drop-shadow(10px 10px 15px rgb(28, 115, 254));
+
+       }
+
+       /* to{
+            transition: scale(1.1);
+             filter: drop-shadow(5px 5px 10px rgb(70, 21, 215));
+        } */
+
+   }

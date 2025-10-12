@@ -1,0 +1,60 @@
+.spritesheet {
+  margin: 0 auto;
+  width: 170px;
+  height: 360px;
+  background-image: url('/Practice/sprite/img/sukuna.jpg');
+  background-size: 1280px 360px;
+  animation: walk 5s steps(6) infinite;
+}
+
+@keyframes walk {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -1280px 0;
+  }
+
+}
+
+/* ------------- */
+
+.toji {
+  margin: 0 auto;
+  width: 35px;
+  height: 55px;
+  background-image: url(/Practice/sprite/img/toji11.jpg);
+  animation: sword 2s steps(6) infinite;
+}
+
+@keyframes sword {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -256px 0;
+  }
+
+}
+
+/* ---------- */
+.runner {
+  margin: 0 auto;
+  width: calc(923px / 7);
+  height: 150px;
+  background: url(/Practice/sprite/img/12.png) no-repeat;
+  animation: runner 1s steps(7) infinite;
+}
+
+@keyframes runner {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -923px 0;
+  }
+
+}

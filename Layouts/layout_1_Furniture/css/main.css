@@ -1,4 +1,4 @@
-* {
+ * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -747,7 +747,7 @@ h1 span {
 .offer1 {
     width: 570px;
     height: 249px;
-    background-image: url(/Layouts/1/images/offers/r2.png);
+    background-image: url(/Group-FD1_250_25/Layouts/layout_1_Furniture/images/offers/r2.png);
     position: relative;
     margin-right: 30px;
 }
@@ -887,7 +887,7 @@ h1 span {
 /* 222222222222222222222222222222222222222222222222222 */
 
 .offer2 {
-    background-image: url(/Layouts/1/images/offers/r3.png);
+    background-image: url(//Group-FD1_250_25/Layouts/layout_1_Furniture/images/offers/r3.png);
     width: 570px;
     height: 249px;
     position: relative;
