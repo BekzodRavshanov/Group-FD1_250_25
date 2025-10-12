@@ -38,7 +38,7 @@
         display: flex;
         width: 706px;
         height: 18px;
-        
+
 
         li {
             list-style: none;
@@ -46,7 +46,14 @@
             font-size: 12px;
             margin-top: 8px;
             text-decoration: none;
+
+            a:hover {
+                color: #FBD13E;
+            }
+
+
         }
+
     }
 
     .additional {
@@ -97,6 +104,10 @@
     margin-top: 250px;
     font-family: sans-serif;
     margin-bottom: 284px;
+
+    :hover {
+        color: #FBD13E;
+    }
 }
 
 .tel {
@@ -131,6 +142,11 @@
     }
 }
 
+.single:hover {
+    transition: 0.5s all ease;
+    scale: 1.1;
+}
+
 .tiramisu {
     h4 {
         width: 104px;
@@ -155,6 +171,11 @@
 
 .price {
     display: flex;
+
+    :hover {
+        transition: 0.5s all ease;
+        scale: 1.1;
+    }
 
     h1 {
         margin-right: 36px;
@@ -233,6 +254,11 @@
         height: 42px;
         position: relative;
 
+        :hover {
+            transition: 0.5s all ease;
+            scale: 1.1;
+        }
+
         img {
             position: absolute;
             top: -23px;
@@ -278,6 +304,11 @@
     margin-bottom: 38px;
     width: 233px;
     height: 444px;
+
+    :hover {
+        transition: 0.5s all ease-in-out;
+        scale: 1.05;
+    }
 }
 
 
@@ -491,11 +522,29 @@
     }
 }
 
+.redCard:hover {
+    scale: 1.1;
+    transition: 0.5s all ease;
+}
+
+.menuCards:hover {
+    scale: 1.1;
+    transition: 0.5s all ease;
+}
+
+.newCards:hover {
+    scale: 1.1;
+    transition: 0.5s all ease;
+}
+
 /* ---------------------------FOOTER------------------------------ */
 .footer {
     width: 1600px;
     height: 190px;
     background-color: black;
+    :hover{
+        color: #FBD13E;
+    }
 }
 
 .connection {
