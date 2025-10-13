@@ -1,0 +1,283 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    z-index: 4;
+    font-family: sans-serif;
+}
+
+.container {
+    background-color: #0F0F11;
+    width: 1600px;
+    position: relative;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 52px;
+}
+
+.bg {
+    width: 2595px;
+    height: 2595px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* --------------------NAVBAR------------------------------------------------------ */
+.navbar {
+    width: 1499.9697265625px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-bottom: 52px;
+
+
+    .list ul {
+        display: flex;
+        width: 706px;
+        height: 18px;
+
+
+        li {
+            list-style: none;
+            margin-right: 49px;
+            font-size: 12px;
+            margin-top: 8px;
+            text-decoration: none;
+
+            a:hover {
+                color: #FBD13E;
+            }
+
+
+        }
+
+    }
+
+    .additional {
+        a {
+            width: 15px;
+            height: 24px;
+            margin-right: 40px;
+            cursor: pointer;
+        }
+    }
+}
+
+/* ----------------------MAIN---------------------------------- */
+.main2 {
+    width: 1500px;
+    margin: 0 auto;
+
+    .header p {
+        width: 643px;
+        height: 194px;
+        font-size: 80px;
+        line-height: 94px;
+        position: relative;
+    }
+
+    .link {
+        width: 301px;
+        height: 20px;
+        font-size: 13px;
+        position: absolute;
+        top: 250px;
+        left: 50px;
+        a{
+            text-decoration: none;
+        }
+    }
+
+}
+
+.link a:hover{
+    color: #FBD13E;
+}
+
+.cardMenu {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 144px;
+}
+
+.card {
+    margin-right: 15px;
+    margin-bottom: 38px;
+    width: 233px;
+    height: 444px;
+
+    :hover {
+        transition: 0.5s all ease-in-out;
+        scale: 1.05;
+    }
+}
+
+
+.foodName {
+    h4 {
+        width: 233px;
+        font-size: 20px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+
+    .massa {
+        width: 47px;
+        height: 20px;
+        background-color: gray;
+        color: white;
+        border-radius: 3px;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: center;
+        padding: 2px;
+        margin-bottom: 5px;
+    }
+
+}
+
+.aaa {
+    p {
+        width: 233px;
+        height: 58px;
+        font-size: 13px;
+        line-height: 18px;
+        opacity: 0.8;
+    }
+
+    margin-bottom: 14px;
+}
+
+.cPrice {
+    display: flex;
+
+    h1 {
+        margin-right: 36px;
+    }
+
+    button {
+        width: 42px;
+        height: 42px;
+        position: relative;
+
+        img {
+            position: absolute;
+            top: -23px;
+            left: -33px;
+        }
+    }
+}
+
+.ccPrice {
+    display: flex;
+
+    h1 {
+        margin-right: 36px;
+    }
+
+    button {
+        width: 128px;
+        height: 42px;
+        position: relative;
+        border: 1px solid #FBD13E;
+        background-color: black;
+
+
+        a {
+            color: #FBD13E;
+            text-decoration: none;
+
+        }
+    }
+}
+
+/* ---------------------------FOOTER------------------------------ */
+.footer {
+    width: 1600px;
+    height: 190px;
+    background-color: black;
+
+    :hover {
+        color: #FBD13E;
+    }
+}
+
+.connection {
+    padding: 5px;
+    display: flex;
+
+    .logo {
+        width: 135px;
+        height: 24px;
+        margin-right: 118px;
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    ul {
+        display: flex;
+        margin-top: 62px;
+
+        li {
+            list-style-type: none;
+            margin-right: 50px;
+            height: 15px;
+            font-size: 12px;
+        }
+    }
+
+}
+
+.call {
+    display: flex;
+    margin-top: 55px;
+    margin-left: 350px;
+
+    p {
+        height: 20px;
+        font-size: 20px;
+        margin-right: 29px;
+
+        a {
+            text-decoration: none;
+        }
+
+    }
+}
+
+hr {
+    width: 1500px;
+    height: 1px;
+    color: gray;
+    margin-top: 35px;
+    margin-left: 50px;
+}
+
+.info {
+    height: 76px;
+
+    .year {
+        margin-left: 50px;
+        margin-top: 28px;
+        height: 15px;
+        font-size: 12px;
+    }
+
+    .agreement {
+        display: flex;
+        float: right;
+        margin-top: -13px;
+
+        p {
+            margin-right: 45px;
+            height: 15px;
+            font-size: 12px;
+        }
+    }
+}
+
