@@ -5,7 +5,6 @@
     color: white;
     z-index: 4;
     font-family: sans-serif;
-    overflow-x: hidden;
 }
 
 .container {
@@ -15,6 +14,7 @@
     justify-content: center;
     margin: 0 auto;
     padding-top: 52px;
+    overflow: hidden;
 }
 
 .bg {
@@ -541,6 +541,7 @@
 /* ---------------------------FOOTER------------------------------ */
 .footer {
     width: 1600px;
+    height: 190px;
     background-color: black;
     :hover{
         color: #FBD13E;
