@@ -5,6 +5,7 @@
     color: white;
     z-index: 4;
     font-family: sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
