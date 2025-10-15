@@ -452,7 +452,7 @@ h1 span {
     width: 669px;
     height: 511px;
     margin-right: 15px;
-    background-image: url(/Layouts/1/images/page2/maskg.png);
+    background-image: url(../images/page2/firstImg.png);
     position: relative;
 }
 
@@ -479,7 +479,7 @@ h1 span {
 }
 
 .nd {
-    background-image: url(/Layouts/1/images/page2/Rectangle\ 34.png);
+    background-image: url(../images/page2/secondImg.png);
     width: 485px;
     height: 247px;
     position: relative;
@@ -510,7 +510,7 @@ h1 span {
 }
 
 .rd {
-    background-image: url(/Layouts/1/images/page2/Rectangle\ 33.png);
+    background-image: url(../images/page2/thirdImg.png);
     width: 485px;
     height: 247px;
     position: relative;
@@ -747,7 +747,7 @@ h1 span {
 .offer1 {
     width: 570px;
     height: 249px;
-    background-image: url(/Group-FD1_250_25/Layouts/layout_1_Furniture/images/offers/r2.png);
+    background-image: url(../images/offers/first.png);
     position: relative;
     margin-right: 30px;
 }
@@ -887,7 +887,7 @@ h1 span {
 /* 222222222222222222222222222222222222222222222222222 */
 
 .offer2 {
-    background-image: url(//Group-FD1_250_25/Layouts/layout_1_Furniture/images/offers/r3.png);
+    background-image: url(../images/offers/second.png);
     width: 570px;
     height: 249px;
     position: relative;
@@ -1148,7 +1148,7 @@ h1 span {
 .banner {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/Card.png);
+    background-image: url(../images/banners/sofa.png);
     color: white;
     margin: 6px;
     border-radius: 8px;
@@ -1157,7 +1157,7 @@ h1 span {
 .banner2 {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/card2.png);
+    background-image: url(../images/banners/nout.png);
     color: white;
     margin: 6px;
     border-radius: 8px;
@@ -1166,7 +1166,7 @@ h1 span {
 .banner3 {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/card1.png);
+    background-image: url(../images/banners/chair.png);
     color: white;
     margin: 6px;
     border-radius: 8px;
@@ -1175,7 +1175,7 @@ h1 span {
 .banner4 {
     width: 569.75px;
     height: 455.28px;
-    background-image: url(/Layouts/1/images/banners/card3.png);
+    background-image: url(../images/banners/whitechair.png);
     color: white;
     margin: 6px;
     border-radius: 8px;
