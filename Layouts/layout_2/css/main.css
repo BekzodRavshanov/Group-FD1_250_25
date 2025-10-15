@@ -541,7 +541,6 @@
 /* ---------------------------FOOTER------------------------------ */
 .footer {
     width: 1600px;
-    height: 190px;
     background-color: black;
     :hover{
         color: #FBD13E;
