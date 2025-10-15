@@ -1,0 +1,54 @@
+   body {
+       background-image: url(../img/darkArena.jpg);
+       background-repeat: no-repeat;
+       background-size: cover;
+   }
+
+   .main {
+       margin: 0 auto;
+       margin-top: 200px;
+       width: 1200px;
+       display: flex;
+       justify-content: space-between;
+
+       padding-top: 2rem
+   }
+
+
+   img {
+       width: 500px;
+   }
+
+
+
+   .gojo {
+       animation: pulse 1s linear infinite;
+   }
+
+   @keyframes pulse {
+       from {
+           filter: drop-shadow(10px 10px 15px rgb(28, 115, 254));
+
+       }
+
+       to {
+           filter: drop-shadow(5px 5px 10px rgb(70, 21, 215));
+       }
+
+   }
+
+   .sukuna {
+       animation: impulse 1s linear infinite;
+   }
+
+   @keyframes impulse {
+       from {
+           filter: drop-shadow(10px 10px 15px rgb(109, 0, 0));
+
+       }
+
+       to {
+           filter: drop-shadow(5px 5px 10px rgb(190, 6, 6));
+       }
+
+   }

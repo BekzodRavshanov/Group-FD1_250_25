@@ -2,7 +2,7 @@
   margin: 0 auto;
   width: 170px;
   height: 360px;
-  background-image: url('/Practice/sprite/img/sukuna.jpg');
+  background-image: url(../img/sukuna.jpg);
   background-size: 1280px 360px;
   animation: walk 5s steps(6) infinite;
 }
@@ -24,7 +24,7 @@
   margin: 0 auto;
   width: 35px;
   height: 55px;
-  background-image: url(/Practice/sprite/img/toji11.jpg);
+  background-image: url(../img/toji11.jpg);
   animation: sword 2s steps(6) infinite;
 }
 
@@ -44,7 +44,7 @@
   margin: 0 auto;
   width: calc(923px / 7);
   height: 150px;
-  background: url(/Practice/sprite/img/12.png) no-repeat;
+  background: url(../img/12.png) no-repeat;
   animation: runner 1s steps(7) infinite;
 }
 
