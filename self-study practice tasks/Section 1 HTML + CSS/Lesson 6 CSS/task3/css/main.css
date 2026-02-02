@@ -1,0 +1,65 @@
+.block {
+    background: linear-gradient(to top, #4d6a92 0%, white) no-repeat bottom, url("../img/product-3.png");
+    margin-top: 10px;
+    width: 600px;
+    height: 370px;
+    border: 1px solid grey;
+    background-size: auto 50%, cover;
+    background-blend-mode: multiply;
+}
+
+.block1 {
+    background: linear-gradient(to top, #4d6a92 0%, white) no-repeat bottom, url("../img/product-4.png");
+    margin-top: 10px;
+    width: 600px;
+    height: 370px;
+    border: 1px solid grey;
+    background-size: auto 50%, cover;
+    background-blend-mode: multiply;
+    position: relative;
+}
+
+.block2 {
+    margin-top: 10px;
+    background: linear-gradient(to top, #4d6a92 0%, white) no-repeat bottom, url("../img/product-5.png");
+    width: 600px;
+    height: 370px;
+    border: 1px solid grey;
+    background-size: auto 50%, cover;
+    background-blend-mode: multiply;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+}
+
+.p1 {
+    margin-top: 310px;
+    margin-left: 335px;
+    color: white;
+}
+
+.p2 {
+    margin-top: 305px;
+    margin-left: 300px;
+    color: white;
+}
+
+span {
+    float: right;
+    margin-right: 26px;
+}
+
+.p3 {
+    margin-top: 305px;
+    margin-left: 365px;
+    color: white;
+}
+
+.salom {
+    position: absolute;
+    color: white;
+    left: 507px;
+    bottom: 10px;
+}

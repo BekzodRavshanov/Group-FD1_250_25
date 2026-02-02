@@ -1,0 +1,48 @@
+.block {
+    padding-left: 2rem;
+    margin-bottom: 1rem;
+}
+
+.b1 {
+    border: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    color: white;
+    background-image:linear-gradient(90deg,#FF6676,#FFB75A);
+}
+
+.b2 {
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-image:linear-gradient(90deg,#48EFFF,#6572FF);
+}
+
+.b3 {
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-image:linear-gradient(90deg,#53FFA5,#53FFA5);
+}
+
+.b4 {
+    border: none;
+    width: 100px;
+    height: 40px;
+    color: white;
+    text-align: center;
+    background-image:linear-gradient(90deg,#D36FDF,#F227A2);
+}
+
+.b5 {
+    border: none;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-image:linear-gradient(90deg,#F0F0F0,#F0F0F0);
+}

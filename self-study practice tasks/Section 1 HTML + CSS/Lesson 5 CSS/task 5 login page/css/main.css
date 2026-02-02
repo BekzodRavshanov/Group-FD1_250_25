@@ -1,0 +1,80 @@
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    border: 1px solid green;
+    background-color: #1A9F66;
+    width: 686px;
+    height: 574px;
+}
+
+.white_frame {
+    border: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 6rem;
+    margin-top: 6rem;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+
+.login_word {
+    border: 1px solid white;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 0rem;
+    margin-top: 1rem;
+
+}
+
+.words {
+    text-align: center;
+}
+
+.input1 {
+    color: #7D7A79;
+    padding-left: 0.5rem;
+    background-color: #F2F2F2;
+    margin-left:3rem;
+    width: 300px;
+    height: 40px;
+    margin-right: 3rem;
+    margin-bottom: 0.5rem;
+    border: none;
+}
+
+.input2 {
+    border: none;
+    color: #7D7A79;
+    padding-left: 0.5rem;
+    background-color: #F2F2F2;
+    margin-left: 3rem;
+    width: 300px;
+    height: 40px;
+    margin-left: 3rem;
+
+}
+.login_button {
+    border: none;
+    text-align: center;
+    background-color: #2B9480;
+    width: 308px;
+    height: 40px;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    color: white;
+}
+
+
+.link {
+    margin-left: 6rem;
+    color: #7D7A79;
+}
+
+.a {
+    color: #1A9F66;
+}

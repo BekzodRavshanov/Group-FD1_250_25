@@ -1,0 +1,130 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5rem;
+    background-color: #EEF2F5;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.block {
+    width: 55%;
+    padding: 1rem;
+}
+
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+}
+
+.lorem {
+    width: 73%;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.button {
+    width: 120px;
+    height: 30px;
+    color: white;
+    background-color: #1CD2A1;
+    border: none;
+    border-radius: 3px;
+    margin-top: 1rem;
+}
+
+.button:hover {
+    background-color: darkgreen;
+    color: white;
+}
+
+.images {
+    position: absolute;
+}
+
+.circle1 {
+    width: 180px;
+    height: 180px;
+    border: 10px solid #F1F5F8;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 135px;
+    left: 800px;
+}
+
+.circle2 {
+    width: 199px;
+    height: 199px;
+    border: 75px solid #F3F7FA;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    top: 60px;
+    left: 726px;
+}
+
+.circle3 {
+    width: 500px;
+    height: 500px;
+    border: 5px solid #F2F6F9;
+    border-radius: 50%;
+    display: inline-block;
+    top: -20px;
+    left: 645px;
+    position: absolute;
+}
+
+.img6 {
+    position: absolute;
+    right: -970px;
+    bottom: -185px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+
+.img3 {
+    position: absolute;
+    right: -850px;
+    bottom: -315px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+
+.img4 {
+    position: absolute;
+    right: -1000px;
+    bottom: -380px;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+}
+
+.img1 {
+    position: absolute;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    right: -720px;
+    bottom: -155px;
+}
+
+.img2 {
+    position: absolute;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    right: -1095px;
+    bottom: -70px;
+}
+
+.img5 {
+    position: absolute;
+    border: 5px solid #ffffff;
+    border-radius: 50%;
+    right: -780px;
+    bottom: -465px;
+    margin
+}
+

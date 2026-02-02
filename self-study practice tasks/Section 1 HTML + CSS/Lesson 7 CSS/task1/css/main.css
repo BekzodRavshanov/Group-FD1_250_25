@@ -1,0 +1,25 @@
+.wrapper {
+    /*border: 1px solid;*/
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid;
+    margin: 1rem 1rem;
+    text-align: center;
+    width: 20%;
+
+}
+
+.box img {
+    width: 40%;
+}
+
+.box p {
+    color: grey;
+}

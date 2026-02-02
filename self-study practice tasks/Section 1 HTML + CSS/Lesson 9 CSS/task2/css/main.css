@@ -1,0 +1,122 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    border: none;
+    padding: 2rem;
+    margin-top: 5rem;
+    background-color: #FAFAFA;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    padding: 1rem;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+    background-color: white;
+}
+
+.box:hover {
+    box-shadow: 0px 5px 5px 1px rgba(0, 0, 0, 0.5);
+    transition: 1s all;
+}
+
+.shadow5{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+    background-color: white;
+}
+.shadow5:hover{
+    box-shadow: 0px 10px 15px 0 rgba(0, 0, 0, 0.3);
+    transition: 1s all;
+}
+
+.shadow6{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+    background-color: white;
+}
+
+.shadow6:hover{
+    box-shadow: 0px 15px 30px 1px rgba(0, 0, 0, 0.4);
+    transition: 1s all;
+}
+
+
+.dreamy {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+    background-color: white;
+}
+
+.dreamy:hover {
+    box-shadow: 0 5px 20px 2px rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+}
+
+.shorter {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+    background-color: white;
+}
+
+
+.shorter:hover {
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.5);
+    transition: 1s all;
+}
+
+.longer {
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+    transition: 1s all;
+    background-color: white;
+}
+
+.longer:hover {
+    box-shadow: 0px 7px 20px 5px rgba(0, 0, 0, 0.2);
+    transition: 1s all;
+}
+
+
+.box p, .shadow {
+    position: absolute;
+    top: 75px;
+}
+
+.block p {
+    position: absolute;
+    top: 320px;
+}

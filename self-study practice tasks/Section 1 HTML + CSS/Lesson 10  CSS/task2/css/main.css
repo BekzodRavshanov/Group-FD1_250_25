@@ -1,0 +1,117 @@
+body {
+    background-color: #03153C;
+}
+
+
+.block {
+    display: flex;
+    width: 100px;
+    margin: 300px auto;
+}
+
+.circle {
+    border-radius: 50%;
+    background-color: #ffffff;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    animation: play3 1.5s linear infinite;
+    animation-delay: 0.1s;
+}
+
+.shadow1 {
+    width: 125px;
+    height: 125px;
+    background-color: white;
+    opacity: 0.1;
+    border-radius: 50%;
+    position: absolute;
+    top: -12px;
+    right: -12px;
+    animation: play2 1.5s linear infinite;
+    animation-delay: 0.1s;
+}
+
+.shadow2 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    opacity: 0.1;
+    border-radius: 50%;
+    position: absolute;
+    top: -24px;
+    right: -24px;
+    animation: play1 1.5s linear infinite;
+    animation-delay: 0.1s;
+}
+
+.shadow3 {
+    width: 175px;
+    height: 175px;
+    background-color: white;
+    opacity: 0.1;
+    border-radius: 50%;
+    position: absolute;
+    top: -36px;
+    right: -36px;
+    animation: play 1.5s linear infinite;
+    animation-delay: 0.1s;
+}
+
+img {
+    width: 40px;
+    height: 40px;
+    margin-left: 34px;
+    margin-top: 30px;
+
+}
+
+@keyframes play {
+    30% {
+        transform: scale(1);
+    }
+    60% {
+        transform: scale(0.90);
+    }
+    70% {
+        transform: scale(1);
+    }
+}
+
+@keyframes play1 {
+    10% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.90);
+    }
+    60% {
+        transform: scale(1);
+    }
+}
+
+@keyframes play2 {
+    20% {
+        transform: scale(1);
+    }
+    40% {
+        transform: scale(0.90);
+    }
+    60% {
+        transform: scale(1);
+    }
+}
+
+@keyframes play3 {
+    0% {
+        transform: scale(1);
+    }
+    20% {
+        transform: scale(0.90);
+    }
+    40% {
+        transform: scale(1);
+    }
+}
+
+

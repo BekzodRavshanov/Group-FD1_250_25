@@ -1,0 +1,95 @@
+.container {
+    margin: 20px auto;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.block {
+    width: 150px;
+    height: 150px;
+    border: 2px solid goldenrod;
+    border-radius: 50%;
+}
+
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: goldenrod;
+    animation-name: rotation;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+
+@keyframes rotation {
+    0% {
+        transform: translateX(50px) translateY(0);
+    }
+    5% {
+        transform: translateX(60px) translateY(1px);
+    }
+    10% {
+        transform: translateX(80px) translateY(10px);
+    }
+    15% {
+        transform: translateX(90px) translateY(20px);
+    }
+    20% {
+        transform: translateX(100px) translateY(45px);
+    }
+    25% {
+        transform: translateX(101px) translateY(55px);
+    }
+    30% {
+        transform: translateX(90px) translateY(80px);
+    }
+    35% {
+        transform: translateX(80px) translateY(90px);
+    }
+    40% {
+        transform: translateX(70px) translateY(96px);
+    }
+    45% {
+        transform: translateX(60px) translateY(100px);
+    }
+    50% {
+        transform: translateX(50px) translateY(102px);
+    }
+    55% {
+        transform: translateX(40px) translateY(100px);
+    }
+    60% {
+        transform: translateX(30px) translateY(96px);
+    }
+    65% {
+        transform: translateX(20px) translateY(91px);
+    }
+    70% {
+        transform: translateX(10px) translateY(80px);
+    }
+    75% {
+        transform: translateX(5px) translateY(64px);
+    }
+    80% {
+        transform: translateX(0px) translateY(50px);
+    }
+    85% {
+        transform: translateX(20px) translateY(40px);
+    }
+    90% {
+        transform: translateX(30px) translateY(4px);
+    }
+    95% {
+        transform: translateX(20px) translateY(9px);
+    }
+    100% {
+        transform: translateX(10px) translateY(19px);
+    }
+}
+

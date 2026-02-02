@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f470b544-c58a-4549-97cb-54f065ba97ec" name="Changes" comment="Lesson 9">
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task1/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task2/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task3/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task4/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/html/task4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/01/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/01/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/02/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/02/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/03/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/03/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/04/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/04/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/05/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/05/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/06/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/06/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/07/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/07/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/08/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/08/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/09/img/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/2/09/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task2/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task2/img/avatar-jessica.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task2/img/basic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task2/img/favicon-32x32.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task3/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task3/img/image-omelette.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task3/img/task.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task4/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task4/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PRACTICE/css/task4/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/Bootstrap-grid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/jQuery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task1/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group (2).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group-9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Mask Group.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Rectangle 6.6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/img/Rectangle 6.7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/jQuery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task2/xizmatlar bo'limi.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/Group 9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/img/task.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/jQuery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/js/popper.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 13 Bootstrap/task3/photo_2022-01-13_15-42-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 14 Bootstrap/practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 14 Bootstrap/task1/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 14 Bootstrap/task1/img/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 14 Bootstrap/task1/img/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 14 Bootstrap/task1/img/task 1.PNG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 2/Lesson 14 Bootstrap/task1/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 3 JS/Lesson 1/object array/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 3 JS/Lesson 1/object array/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 3 JS/Lesson 1/practice/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Section 3 JS/Lesson 1/practice/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package.json" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Bekzod-Ravshanoff&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Bekzod-Ravshanoff/Frontend-lesson.git&quot;,
+    &quot;accountId&quot;: &quot;6dfc991c-5eb2-4f15-a18e-90a1585d0204&quot;
+  }
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PRACTICE/2/05/index.html" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2aeeGzsiYJySSR0VxXu1CUYX0xm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/FRONTEND/PRACTICE/css/task3/img&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\FRONTEND\PRACTICE\css\task3\img" />
+      <recent name="C:\FRONTEND\PRACTICE\css\task2\img" />
+      <recent name="C:\FRONTEND\PRACTICE\3 css\01\img" />
+      <recent name="C:\FRONTEND\PRACTICE" />
+      <recent name="C:\FRONTEND\h1\html\2" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\FRONTEND\Section 2\Lesson 13 Bootstrap" />
+      <recent name="C:\FRONTEND\Section 2\Lesson 13 Bootstrap\Task1" />
+      <recent name="C:\FRONTEND\Section 2\Lesson 12 CSS\task1" />
+      <recent name="C:\FRONTEND\Section 2\Lesson 11\task2\img" />
+      <recent name="C:\FRONTEND\Section 2\Lesson 11\task2" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-WS-241.15989.105" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f470b544-c58a-4549-97cb-54f065ba97ec" name="Changes" comment="" />
+      <created>1704683380629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1704683380629</updated>
+      <workItem from="1704683381647" duration="9167000" />
+      <workItem from="1705042746510" duration="1682000" />
+      <workItem from="1705075066092" duration="151000" />
+      <workItem from="1705076267177" duration="386000" />
+      <workItem from="1705084113589" duration="376000" />
+      <workItem from="1705151071082" duration="4040000" />
+      <workItem from="1705327603434" duration="143000" />
+      <workItem from="1705327754525" duration="819000" />
+      <workItem from="1705331234452" duration="6506000" />
+      <workItem from="1705403920947" duration="5262000" />
+      <workItem from="1705409428546" duration="9994000" />
+      <workItem from="1705423980964" duration="4147000" />
+      <workItem from="1706126989483" duration="189000" />
+      <workItem from="1706471765336" duration="1103000" />
+      <workItem from="1708110506316" duration="6846000" />
+      <workItem from="1708117450935" duration="525000" />
+      <workItem from="1708117995843" duration="406000" />
+      <workItem from="1708118752129" duration="54000" />
+      <workItem from="1708291835471" duration="8324000" />
+      <workItem from="1708343071937" duration="3874000" />
+      <workItem from="1708352571012" duration="8760000" />
+      <workItem from="1708366979507" duration="104000" />
+      <workItem from="1708427023888" duration="14965000" />
+      <workItem from="1708462138757" duration="2931000" />
+      <workItem from="1708465105215" duration="13568000" />
+      <workItem from="1708528355015" duration="3625000" />
+      <workItem from="1708532026621" duration="138000" />
+      <workItem from="1708532638032" duration="1773000" />
+      <workItem from="1708609682936" duration="5094000" />
+      <workItem from="1708618429260" duration="2848000" />
+      <workItem from="1708621330270" duration="3811000" />
+      <workItem from="1708647727174" duration="6059000" />
+      <workItem from="1708654160471" duration="25000" />
+      <workItem from="1708654253366" duration="64000" />
+      <workItem from="1708689748537" duration="6810000" />
+      <workItem from="1709044038531" duration="1499000" />
+      <workItem from="1709047202865" duration="9170000" />
+      <workItem from="1709122793774" duration="3120000" />
+      <workItem from="1709126030436" duration="187000" />
+      <workItem from="1709126275548" duration="2262000" />
+      <workItem from="1709129087917" duration="1918000" />
+      <workItem from="1709251357445" duration="652000" />
+      <workItem from="1709406268385" duration="4390000" />
+      <workItem from="1709421948319" duration="2564000" />
+      <workItem from="1709469555165" duration="16690000" />
+      <workItem from="1709675795000" duration="13483000" />
+      <workItem from="1709725413125" duration="3908000" />
+      <workItem from="1709737282504" duration="10397000" />
+      <workItem from="1709747933346" duration="120000" />
+      <workItem from="1709748070249" duration="192000" />
+      <workItem from="1709983112513" duration="2256000" />
+      <workItem from="1710504289464" duration="15873000" />
+      <workItem from="1710683588578" duration="8806000" />
+      <workItem from="1712723444579" duration="16000" />
+      <workItem from="1712723472420" duration="18000" />
+      <workItem from="1712723582808" duration="26000" />
+      <workItem from="1712723618869" duration="99000" />
+      <workItem from="1712724158104" duration="76000" />
+      <workItem from="1712724244151" duration="57000" />
+      <workItem from="1712724589059" duration="1390000" />
+      <workItem from="1713423414588" duration="1865000" />
+      <workItem from="1713691471059" duration="1544000" />
+      <workItem from="1713861486728" duration="7621000" />
+      <workItem from="1714405235871" duration="599000" />
+      <workItem from="1714406238684" duration="1143000" />
+      <workItem from="1714557948535" duration="56000" />
+      <workItem from="1714572353463" duration="3622000" />
+      <workItem from="1714660577609" duration="8528000" />
+      <workItem from="1715096187201" duration="773000" />
+      <workItem from="1715171957866" duration="17314000" />
+      <workItem from="1715270381914" duration="4023000" />
+      <workItem from="1715438224889" duration="5382000" />
+      <workItem from="1715532196877" duration="1280000" />
+      <workItem from="1715590378721" duration="34000" />
+      <workItem from="1715590418390" duration="31000" />
+      <workItem from="1715590461254" duration="59000" />
+      <workItem from="1715590649105" duration="15000" />
+      <workItem from="1715590862922" duration="209000" />
+      <workItem from="1715591261877" duration="352000" />
+      <workItem from="1715591744632" duration="1186000" />
+      <workItem from="1715592965984" duration="71000" />
+      <workItem from="1715593125408" duration="186000" />
+      <workItem from="1715695567207" duration="2186000" />
+      <workItem from="1715787103143" duration="3580000" />
+      <workItem from="1715803161603" duration="10747000" />
+      <workItem from="1715817423630" duration="1583000" />
+      <workItem from="1715872967709" duration="2423000" />
+      <workItem from="1716018144319" duration="3860000" />
+      <workItem from="1717951651185" duration="1356000" />
+      <workItem from="1718314725254" duration="2375000" />
+      <workItem from="1718576473146" duration="1458000" />
+      <workItem from="1719445340647" duration="1432000" />
+      <workItem from="1719476788900" duration="7506000" />
+      <workItem from="1719500484537" duration="3371000" />
+    </task>
+    <task id="LOCAL-00001" summary="1st commit">
+      <option name="closed" value="true" />
+      <created>1708533230442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1708533230442</updated>
+    </task>
+    <task id="LOCAL-00002" summary="sorted folders">
+      <option name="closed" value="true" />
+      <created>1708697980027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708697980027</updated>
+    </task>
+    <task id="LOCAL-00003" summary="sorted folders">
+      <option name="closed" value="true" />
+      <created>1708698107742</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708698107742</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lesson 9">
+      <option name="closed" value="true" />
+      <created>1709129242080</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709129242080</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lesson 9">
+      <option name="closed" value="true" />
+      <created>1709741684133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709741684133</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson 9">
+      <option name="closed" value="true" />
+      <created>1709748086242</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1709748086242</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st commit" />
+    <MESSAGE value="sorted folders" />
+    <MESSAGE value="Lesson 9" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson 9" />
+  </component>
+</project>

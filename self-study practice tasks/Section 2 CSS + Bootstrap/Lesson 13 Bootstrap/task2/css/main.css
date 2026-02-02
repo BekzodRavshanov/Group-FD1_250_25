@@ -1,0 +1,8 @@
+.hovereffect{
+    position: relative;
+}
+
+.effect{
+    position: absolute;
+    color: #FFFFFF;
+}

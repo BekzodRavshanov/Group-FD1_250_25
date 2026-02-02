@@ -1,0 +1,40 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1rem;
+}
+
+.block {
+    background-color: #F1F1F1;
+    width: 900px;
+    height: 90px;
+}
+
+ul {
+    padding: 1rem;
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+}
+
+li {
+    font-size: 20px;
+    list-style: none;
+    padding: 1rem;
+    position: relative;
+    margin-right: 5rem;
+
+}
+
+.dot {
+    width: 25px;
+    height: 25px;
+    border: 1px solid;
+    border-radius: 50%;
+    background-color: #4272D8;
+    color: white;
+    position: absolute;
+    top: 5px;
+    right: -15px;
+}

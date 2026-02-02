@@ -1,0 +1,145 @@
+body {
+    background-color: #F9F9F9;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #d2484b;
+    width: 250px
+}
+
+.next-btn {
+    float: right;
+    position: absolute;
+    top: 20px;
+    right: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: grey;
+    color: #FFFFFF;
+}
+
+.wrapper {
+    padding-top: 2rem;
+    border-top: 1px solid lightgrey;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    border: 1px solid lightgrey;
+    background-color: #FFFFFF;
+    width: 200px;
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+
+}
+
+img {
+    width: 100%;
+}
+
+p {
+    border-top: 1px solid lightgrey;
+}
+
+fieldset {
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    border-top: 1px solid lightgrey;
+}
+
+.stars {
+    color: goldenrod;
+}
+
+del {
+    color: lightgrey;
+    margin-right: 5px;
+}
+
+strong {
+    font-size: 24px;
+}
+
+button {
+    background-color: #FFFFFF;
+    text-transform: capitalize;
+    width: 120px;
+    height: 30px;
+    align-items: center;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+
+.shopcart {
+    width: 10px;
+    margin-right: 5px;
+}
+
+@media (min-width: 0) and (max-width: 446.9px) {
+    .container {
+        width: 100%;
+    }
+
+    .box {
+        width: 90%;
+    }
+
+    .wrapper {
+        justify-content: center;
+    }
+
+}
+
+@media (min-width: 447px) and (max-width: 768.9px) {
+    .container {
+        width: 100%;
+    }
+
+    .box {
+        width: 45%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 989.9px) {
+    .container {
+        width: 100%;
+    }
+
+    .wrapper {
+        justify-content: space-evenly
+    }
+
+    .box {
+        width: 30%;
+    }
+}
+
+@media (min-width: 990px) and (max-width: 1199.9px) {
+    .container {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1800px) {
+    .container {
+        width: 100%;
+    }
+}

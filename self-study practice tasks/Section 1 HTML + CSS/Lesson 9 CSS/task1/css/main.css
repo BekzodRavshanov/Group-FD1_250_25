@@ -1,0 +1,30 @@
+.box {
+    margin: 0 auto;
+    font-family: sans-serif;
+    text-align: center;
+
+}
+
+.btn {
+    width: 200px;
+    height: 80px;
+    border: none;
+    border-radius: 10px;
+    background-color: #4183B2;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 5px;
+    transition: 0.5s all;
+}
+
+.btn:hover {
+    border-radius: 50px;
+    border: none;
+}
+
+.btn:active {
+    background-color: #1CD2A1;
+    transition: 0s all;
+    border: none;
+}
+

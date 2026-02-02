@@ -1,0 +1,90 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5rem;
+
+}
+
+.block {
+    border-radius: 5px;
+    border: 10px solid #E3E3E5;
+    padding: 5px;
+    width: 500px;
+    height: 700px;
+}
+
+.header {
+    margin: 1px;
+    border: 5px solid #97E697;
+    width: 490px;
+    border-radius: 5px;
+}
+
+.nav {
+    margin: 1px;
+    border: 5px solid #DAA4B4;
+    width: 490px;
+    border-radius: 5px;
+}
+
+.article {
+    margin: 1px;
+    border: 5px solid #49B2DC;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    width: 70%;
+    flex-direction: column;
+}
+
+.header2 {
+    margin-bottom: 15rem;
+    border: 5px solid #97E697;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.section1 {
+    border: 5px solid #C679CF;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.footer {
+    height: 20px;
+    padding-bottom: 10px;
+    border: 5px solid #FBFB99;
+    margin: 2px 2px;
+    border-radius: 5px;
+
+}
+
+.content {
+    display: flex;
+    height: 75%;
+}
+
+.div {
+    width: 30%;
+    border: 5px solid #F8D8A7;
+    margin: 2px 2px;
+    border-radius: 5px;
+}
+
+
+.aside1 {
+    border: 5px solid #4CDFE9;
+    border-radius: 5px;
+    height: 43%;
+    margin: -1px 2px;
+    margin-bottom: 2px;
+}
+
+.footer2 {
+    border: 5px solid #FBFB99;
+    border-radius: 5px;
+    margin: 2px 2px;
+    height: 6%;
+}

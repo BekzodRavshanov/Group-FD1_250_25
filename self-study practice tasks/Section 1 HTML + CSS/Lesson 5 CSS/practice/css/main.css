@@ -1,0 +1,57 @@
+.container {
+    border: 1px solid;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 700px;
+    background-color: #C9E0D6;
+}
+
+.whiteset {
+    width: 500px;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid;
+    background-color: white;
+}
+
+.block {
+    margin-top: 0.5rem;
+    text-align: center;
+    height: 50px;
+    width: 300px;
+    border: none;
+    background-color: #7599B3;
+    color: white;
+}
+
+.d1 {
+    border: none;
+    background-color: #B2B9C1;
+    height: 50px;
+    width: 400px;
+    margin-bottom: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login2 {
+    width: 200px;
+    background-color: #7599B3;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
+.bottom{
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    color: #B2B9C1;
+}
+.bottom2{
+    float: right;
+    margin-top: 1rem;
+    margin-right: 2.5rem;
+
+}
