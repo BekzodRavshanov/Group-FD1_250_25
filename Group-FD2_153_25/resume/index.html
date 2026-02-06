@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Olivia Sanchez Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1f1f1f;
+            font-family: "Helvetica Neue", Arial, sans-serif;
+            padding: 40px 0;
+            color: #222;
+        }
+
+        .resume {
+            width: 1000px;
+            margin: 0 auto;
+            background: #fff;
+            display: grid;
+            grid-template-columns: 320px 1fr;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, .35);
+        }
+
+        /* LEFT SIDEBAR */
+        .left {
+            background: #2b2b2b;
+            color: #fff;
+            padding: 40px 30px;
+        }
+
+        /* .photo {
+            width: 200px;
+            height: 200px;
+            background: #555;
+            margin: 0 auto 40px;
+        } */
+
+
+        .photo {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto 40px;
+            overflow: hidden;
+        }
+
+        .photo img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .l-section {
+            margin-bottom: 40px;
+        }
+
+        .l-section h3 {
+            font-size: 14px;
+            letter-spacing: 6px;
+            margin-bottom: 18px;
+            font-weight: 600;
+        }
+
+        .contact p,
+        .language p {
+            font-size: 13px;
+            line-height: 1.9;
+            color: #ddd;
+        }
+
+        .education .school {
+            margin-bottom: 18px;
+        }
+
+        .education strong {
+            font-size: 13px;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .education span {
+            font-size: 13px;
+            color: #ccc;
+            display: block;
+        }
+
+        .skills ul {
+            list-style: none;
+        }
+
+        .skills li {
+            font-size: 13px;
+            margin-bottom: 10px;
+        }
+
+        /* RIGHT SIDE */
+        .right {
+            padding: 50px 60px;
+        }
+
+        .header {
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 42px;
+            letter-spacing: 3px;
+            margin-bottom: 8px;
+        }
+
+        .header h1 span {
+            font-weight: 300;
+        }
+
+        .header h2 {
+            font-size: 18px;
+            font-weight: 400;
+            color: #555;
+        }
+
+        .section {
+            margin-bottom: 45px;
+        }
+
+        .section-title {
+            font-size: 15px;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+
+        .about p {
+            font-size: 14px;
+            line-height: 1.8;
+            color: #444;
+            max-width: 620px;
+        }
+
+        .experience-item {
+            margin-bottom: 30px;
+        }
+
+        .experience-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 6px;
+        }
+
+        .experience-header strong {
+            font-size: 15px;
+        }
+
+        .experience-header span {
+            font-size: 13px;
+            color: #666;
+        }
+
+        .company {
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .experience-item ul {
+            padding-left: 18px;
+        }
+
+        .experience-item li {
+            font-size: 13px;
+            line-height: 1.7;
+            margin-bottom: 6px;
+            color: #444;
+        }
+
+        .references {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        .ref strong {
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .ref p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #444;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="resume">
+
+        <aside class="left">
+            <div class="photo"><img src="../Lessons/Game/images/bg arena.jpg" alt=""></div>
+            <div class="l-section contact">
+                <h3>CONTACT</h3>
+                <p>+123-456-7890<br>
+                    hello@reallygreatsite.com<br>
+                    123 Anywhere St., Any City</p>
+            </div>
+
+            <div class="l-section education">
+                <h3>EDUCATION</h3>
+                <div class="school">
+                    <strong>Borcelle University</strong>
+                    <span>Bachelor of Business Management</span>
+                    <span>2020 - 2023</span>
+                </div>
+                <div class="school">
+                    <strong>Borcelle University</strong>
+                    <span>Bachelor of Business Management</span>
+                    <span>2016 - 2020</span>
+                </div>
+            </div>
+
+            <div class="l-section skills">
+                <h3>SKILLS</h3>
+                <ul>
+                    <li>Management Skills</li>
+                    <li>Creativity</li>
+                    <li>Digital Marketing</li>
+                    <li>Negotiation</li>
+                    <li>Critical Thinking</li>
+                    <li>Leadership</li>
+                </ul>
+            </div>
+
+            <div class="l-section language">
+                <h3>LANGUAGE</h3>
+                <p>English<br>French</p>
+            </div>
+        </aside>
+
+        <main class="right">
+            <div class="header">
+                <h1><span>OLIVIA</span><br>SANCHEZ</h1>
+                <h2>Marketing Manager</h2>
+            </div>
+
+            <section class="section about">
+                <div class="section-title">ABOUT ME</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam pharetra in lorem at laoreet. Donec
+                    hendrerit libero eget est tempor, quis tempus arcu elementum.</p>
+            </section>
+
+            <section class="section">
+                <div class="section-title">EXPERIENCE</div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <strong>Product Design Manager</strong>
+                        <span>2020 – 2023</span>
+                    </div>
+                    <div class="company">Ginyard International Co.</div>
+                    <ul>
+                        <li>Working with the wider development team.</li>
+                        <li>Manage website design, content, and SEO Marketing, Branding and Logo Design</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <strong>Product Design Manager</strong>
+                        <span>2019 – 2020</span>
+                    </div>
+                    <div class="company">Arowwai Industries</div>
+                    <ul>
+                        <li>Working with the wider development team.</li>
+                        <li>Manage website design, content, and SEO Marketing, Branding and Logo Design</li>
+                    </ul>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <strong>Product Design Manager</strong>
+                        <span>2017 – 2019</span>
+                    </div>
+                    <div class="company">Ginyard International Co.</div>
+                    <ul>
+                        <li>Working with the wider development team.</li>
+                        <li>Manage website design, content, and SEO Marketing, Branding and Logo Design</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="section-title">REFERENCES</div>
+                <div class="references">
+                    <div class="ref">
+                        <strong>Harumi Kobayashi</strong>
+                        <p>Wardiere Inc. / CEO<br>
+                            Phone: 123-456-7890<br>
+                            Email: hello@reallygreatsite.com</p>
+                    </div>
+                    <div class="ref">
+                        <strong>Bailey Dupont</strong>
+                        <p>Wardiere Inc. / CEO<br>
+                            Phone: 123-456-7890<br>
+                            Email: hello@reallygreatsite.com</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+    </div>
+</body>
+
+</html>

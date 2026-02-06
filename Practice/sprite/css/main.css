@@ -58,3 +58,23 @@
   }
 
 }
+
+.kakashi {
+  margin: 0 auto;
+  width: calc(220px / 5);
+  height: 54px;
+  background: url(../img/KAKASHI100_-ezgif.com-crop\ \(2\).png) no-repeat;
+  animation: kakashi 1s steps(6) infinite;
+}
+
+@keyframes kakashi {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -36px 0;
+  }
+
+}
+
