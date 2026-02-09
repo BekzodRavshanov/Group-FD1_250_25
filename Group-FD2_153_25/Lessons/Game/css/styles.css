@@ -23,7 +23,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("../Game/images/arena.png");
+    background-image: url("../images/arena.png");
     background-size: cover;
     border: 2px solid white;
     border-radius: 4px;
