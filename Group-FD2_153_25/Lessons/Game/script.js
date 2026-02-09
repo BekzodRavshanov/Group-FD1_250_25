@@ -1,10 +1,9 @@
-import {Game} from "./game.js";
+import { Game } from "./game.js";
 
-function startNewGame () {
-    const game = new Game ();
-    game.init();
-    document.querySelector('.loading').style.display = 'none';
-    
+async function startNewGame() {
+  const game = new Game();
+  await game.init();
+  document.querySelector('.loading').style.display = 'none';
 }
 
 startNewGame();
